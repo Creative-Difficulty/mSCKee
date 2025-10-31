@@ -1,2 +1,2 @@
 # mSCKee
-Split Keyboard with modular expansion buttons/switches/encoders
+Split USB-C Keyboard with modular expansion buttons/switches/encoders
