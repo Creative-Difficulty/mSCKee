@@ -621,6 +621,14 @@
     [
       "2ec7cb33-7d00-426e-b710-cc42b1f2f810",
       "Root"
+    ],
+    [
+      "e8479b67-c66f-4a93-9ef2-59ef63eac199",
+      "master_side"
+    ],
+    [
+      "84141690-5233-4517-90f0-209001a553bd",
+      "slave_side"
     ]
   ],
   "text_variables": {}

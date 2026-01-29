@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "26d2394d-6a5b-4260-bfa9-fe3ceff7f692")
+	(paper "A2")
+	(title_block
+		(title "mSCKee slave side")
+		(date "2026-01-28")
+		(rev "v1-pre")
+	)
+	(lib_symbols)
+)
