@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
   (lib (name "OPT3001DNPR")(type "KiCad")(uri "/Users/alexeschanz/Downloads/OPT3001DNPR/OPT3001DNPR.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9956BTWY")(type "KiCad")(uri "/Users/alexeschanz/Downloads/PCA9956BTWY/PCA9956BTWY.kicad_sym")(options "")(descr ""))
 )
