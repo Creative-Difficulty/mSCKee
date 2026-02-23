@@ -1,0 +1,224 @@
+(footprint "SOT230P700X175-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.637115 -5.350605 0)
+		(layer "F.SilkS")
+		(uuid "f1c9c183-84ee-4e5a-a208-fdbccc23cab9")
+		(effects
+			(font
+				(size 1.293992 1.293992)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT230P700X175-4N"
+		(at 10.43039 5.42278 0)
+		(layer "F.Fab")
+		(uuid "067f38db-bc35-4b49-9eaf-be501d6d951f")
+		(effects
+			(font
+				(size 1.286488 1.286488)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42e79bb-9279-41a3-8e6b-56b83dbf4916")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ff2c693-31fb-43ba-b829-ced50a27fbe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "053d2c17-d68f-40a5-adf5-0804b6c9e152")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b142a82-5ba6-4b7f-9415-1e8d85359c2b")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b68fa4a-5a41-4b58-8dca-994c2715e574")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7e1b0c0-ab1e-4a38-913a-ded4f7b7b910")
+	)
+	(fp_circle
+		(center -3.75 -3.5)
+		(end -3.65 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "12a0891e-3cb9-4f7d-a02d-b2d208c21b4d")
+	)
+	(fp_line
+		(start -4.5 -3.5)
+		(end 4.5 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb0f2765-83a7-4737-840a-9bc84a994da5")
+	)
+	(fp_line
+		(start -4.5 3.5)
+		(end -4.5 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f76e1948-6e33-4cec-be07-2e28d7742dcd")
+	)
+	(fp_line
+		(start 4.5 -3.5)
+		(end 4.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "403da1d2-026e-46d1-bbc6-b7f5717ffb02")
+	)
+	(fp_line
+		(start 4.5 3.5)
+		(end -4.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e038a554-0372-4407-b4f4-ee3a9fac7cfd")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "805c4499-2097-4c4a-a37d-82e171c17910")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e4c75c2-3ab5-4005-80af-65c1e1aa073a")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e63af1c-7999-4d99-8aa5-e5da17a52301")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf5d79e2-5253-4720-a392-ab0e8770f554")
+	)
+	(pad "1" smd rect
+		(at -3.15 -2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c5c13964-30f8-4635-9f4f-df06f1ddd86a")
+	)
+	(pad "2" smd rect
+		(at -3.15 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "60fb531d-c191-4382-adb7-09c70dc4350c")
+	)
+	(pad "3" smd rect
+		(at -3.15 2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a6ac671d-cb3f-4f5b-82c6-ad04a740a6ad")
+	)
+	(pad "4" smd rect
+		(at 3.15 0)
+		(size 2 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "60022b4a-9f3f-4c85-beab-e9946e0963d8")
+	)
+	(embedded_fonts no)
+	(model "/Users/alexeschanz/Documents/mSCKee/pcb/pcb-lib/NCP1117LPST33T3G/NCP1117LPST33T3G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

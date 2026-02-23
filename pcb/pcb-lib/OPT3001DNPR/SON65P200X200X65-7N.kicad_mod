@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opt3001.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -240,7 +240,7 @@
 		(uuid "433fa38e-b2b9-43d9-9b23-3dcd8b1964d9")
 	)
 	(embedded_fonts no)
-	(model "/Users/alexeschanz/Downloads/OPT3001DNPR/OPT3001DNPR.step"
+	(model "/Users/alexeschanz/Documents/mSCKee/pcb/pcb-lib/OPT3001DNPR/OPT3001DNPR.step"
 		(offset
 			(xyz 0 0 0)
 		)
