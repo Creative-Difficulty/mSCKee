@@ -2,7 +2,7 @@
   (version 7)
   (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
   (lib (name "OPT3001DNPR")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/OPT3001DNPR/OPT3001DNPR.kicad_sym")(options "")(descr ""))
-  (lib (name "PCA9956BTWY")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/PCA9956BTWY/PCA9956BTWY.kicad_sym")(options "")(descr ""))
   (lib (name "NCP1117LPST33T3G")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/NCP1117LPST33T3G/NCP1117LPST33T3G.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/W25Q128JVSIQ/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-03-25_16-41-27")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/PCA9956BTWY/2026-03-25_16-41-27.kicad_sym")(options "")(descr ""))
 )
