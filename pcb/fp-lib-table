@@ -4,5 +4,6 @@
   (lib (name "PCA9956BTWY")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/PCA9956BTWY")(options "")(descr ""))
   (lib (name "NCP1117LPST33T3G")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/NCP1117LPST33T3G")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/W25Q128JVSIQ")(options "")(descr ""))
-  (lib (name "54_00174")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/54_00174")(options "")(descr ""))
+  (lib (name "ai03-MX_V2")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/ai03-MX_V2")(options "")(descr ""))
+  (lib (name "PCA9555DB_118")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/PCA9555DB_118")(options "")(descr ""))
 )
