@@ -5,4 +5,5 @@
   (lib (name "NCP1117LPST33T3G")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/NCP1117LPST33T3G/NCP1117LPST33T3G.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/W25Q128JVSIQ/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "2026-03-25_16-41-27")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/PCA9956BTWY/2026-03-25_16-41-27.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-03-26_18-01-23")(type "KiCad")(uri "${KIPRJMOD}/pcb-lib/MCP23017T_E_ML/2026-03-26_18-01-23.kicad_sym")(options "")(descr ""))
 )

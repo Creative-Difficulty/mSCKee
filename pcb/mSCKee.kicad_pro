@@ -495,6 +495,15 @@
       "unconnected-(C19-Pad2)": [
         "R_GND"
       ],
+      "unconnected-(C20-Pad2)": [
+        "R_GND"
+      ],
+      "unconnected-(C21-Pad2)": [
+        "R_GND"
+      ],
+      "unconnected-(IC2-PadEPAD)": [
+        "R_GND"
+      ],
       "unconnected-(IC2-VSS-Pad14)": [
         "R_GND"
       ],
@@ -514,6 +523,9 @@
         "R_GND"
       ],
       "unconnected-(J4-PadSH)": [
+        "R_GND"
+      ],
+      "unconnected-(R17-Pad1)": [
         "R_GND"
       ],
       "unconnected-(U5-GND-Pad1)": [
@@ -541,6 +553,15 @@
         "R_GND"
       ],
       "unconnected-(U7-A2-Pad3)": [
+        "R_GND"
+      ],
+      "unconnected-(U7-ADDR-Pad2)": [
+        "R_GND"
+      ],
+      "unconnected-(U7-EXP-Pad7)": [
+        "R_GND"
+      ],
+      "unconnected-(U7-GND-Pad3)": [
         "R_GND"
       ],
       "unconnected-(U7-VSS-Pad12)": [
