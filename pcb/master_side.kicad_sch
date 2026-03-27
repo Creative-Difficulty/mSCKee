@@ -13383,7 +13383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 384.81 298.45 0)
 			(effects
 				(font
@@ -13955,7 +13955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 407.67 298.45 0)
 			(effects
 				(font
@@ -14095,7 +14095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 396.24 326.39 0)
 			(effects
 				(font
@@ -16372,7 +16372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 430.53 298.45 0)
 			(effects
 				(font
@@ -16795,7 +16795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 384.81 326.39 0)
 			(effects
 				(font
@@ -16863,7 +16863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 384.81 312.42 0)
 			(effects
 				(font
@@ -16931,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 407.67 312.42 0)
 			(effects
 				(font
@@ -17603,7 +17603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 419.1 312.42 0)
 			(effects
 				(font
@@ -17671,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 373.38 312.42 0)
 			(effects
 				(font
@@ -18353,7 +18353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 373.38 298.45 0)
 			(effects
 				(font
@@ -18734,7 +18734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 430.53 326.39 0)
 			(effects
 				(font
@@ -19097,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 373.38 326.39 0)
 			(effects
 				(font
@@ -19309,7 +19309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 430.53 312.42 0)
 			(effects
 				(font
@@ -19658,7 +19658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 396.24 312.42 0)
 			(effects
 				(font
@@ -19795,7 +19795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 407.67 326.39 0)
 			(effects
 				(font
@@ -19863,7 +19863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 419.1 298.45 0)
 			(effects
 				(font
@@ -20442,7 +20442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 396.24 298.45 0)
 			(effects
 				(font
@@ -20599,7 +20599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 419.1 326.39 0)
 			(effects
 				(font

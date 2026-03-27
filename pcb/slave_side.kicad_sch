@@ -3624,7 +3624,7 @@
 		(uuid 0ab74e60-d2ba-4a59-b1de-184a8f07a371)
 	)
 	(rectangle
-		(start 234.95 15.24)
+		(start 234.95 12.7)
 		(end 421.64 86.36)
 		(stroke
 			(width 0)
@@ -3920,12 +3920,6 @@
 		(uuid "b08d483a-3768-45df-b766-268f896acca1")
 	)
 	(junction
-		(at 184.15 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0c7a819-d640-429d-9e70-b6e6ca70dd2b")
-	)
-	(junction
 		(at 378.46 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4106,16 +4100,6 @@
 			(type default)
 		)
 		(uuid "14357043-7e98-43b9-bc66-de24f3692872")
-	)
-	(wire
-		(pts
-			(xy 184.15 120.65) (xy 189.23 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a554c3-dafc-4820-9318-556fa0aeca6f")
 	)
 	(wire
 		(pts
@@ -4329,16 +4313,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 120.65) (xy 184.15 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d9f49a-6ff3-4438-84a5-729d2371e50d")
-	)
-	(wire
-		(pts
 			(xy 378.46 74.93) (xy 389.89 74.93)
 		)
 		(stroke
@@ -4459,16 +4433,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 123.19) (xy 220.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "586ba319-0c62-4dc6-96b7-6234da1c1ae7")
-	)
-	(wire
-		(pts
 			(xy 91.44 201.93) (xy 90.17 201.93)
 		)
 		(stroke
@@ -4556,16 +4520,6 @@
 			(type default)
 		)
 		(uuid "7529435a-0ae9-4fe4-b25e-4916c68f4b5c")
-	)
-	(wire
-		(pts
-			(xy 213.36 118.11) (xy 220.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e955f5-220e-4a43-8b70-6d851cad153e")
 	)
 	(wire
 		(pts
@@ -4706,16 +4660,6 @@
 			(type default)
 		)
 		(uuid "99828d20-f3b5-4242-a47d-fc5a6b44d8b3")
-	)
-	(wire
-		(pts
-			(xy 217.17 120.65) (xy 220.98 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c778abe-3ecc-4287-a4a4-93060e2bcbc1")
 	)
 	(wire
 		(pts
@@ -4876,16 +4820,6 @@
 			(type default)
 		)
 		(uuid "c3b8c991-faf8-431b-ac05-53f296241aaf")
-	)
-	(wire
-		(pts
-			(xy 168.91 120.65) (xy 171.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46ac406-7833-41a6-868e-b918edcb6349")
 	)
 	(wire
 		(pts
@@ -5602,36 +5536,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 217.17 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1209f86c-d4aa-42fa-9b31-bbad82fa781a")
-		(property "Netclass" "R_GND"
-			(at 210.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -76.2 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 68.58 34.29 270)
 		(effects
 			(font
@@ -5742,36 +5646,6 @@
 		)
 		(property "Component Class" ""
 			(at -201.93 -49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 219.71 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "603fdd85-679e-4b1f-b559-6c66885d1ea8")
-		(property "Netclass" "R_GND"
-			(at 213.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,36 +6050,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 213.36 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e54abb2a-6e14-439b-b9eb-53b6c19a2fbc")
-		(property "Netclass" "R_GND"
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -80.01 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 513.08 60.96 270)
 		(effects
 			(font
@@ -6319,7 +6163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 375.92 67.31 0)
 			(effects
 				(font
@@ -6387,7 +6231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 364.49 39.37 0)
 			(effects
 				(font
@@ -7353,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 341.63 39.37 0)
 			(effects
 				(font
@@ -8202,7 +8046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 353.06 39.37 0)
 			(effects
 				(font
@@ -9291,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 387.35 67.31 0)
 			(effects
 				(font
@@ -9844,72 +9688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 184.15 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f134473-e4f4-476f-ad2a-7ed84cc58346")
-		(property "Reference" "TP7"
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 180.34 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 179.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "436b54bc-2a52-4f95-9d20-cfa7b4a93b78")
-		)
-		(instances
-			(project ""
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 344.17 44.45 270)
 		(unit 1)
@@ -10023,7 +9801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 375.92 39.37 0)
 			(effects
 				(font
@@ -10180,7 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 387.35 53.34 0)
 			(effects
 				(font
@@ -10248,7 +10026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 364.49 67.31 0)
 			(effects
 				(font
@@ -10777,7 +10555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 364.49 53.34 0)
 			(effects
 				(font
@@ -11087,7 +10865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 341.63 67.31 0)
 			(effects
 				(font
@@ -11299,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 353.06 53.34 0)
 			(effects
 				(font
@@ -11599,7 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 375.92 53.34 0)
 			(effects
 				(font
@@ -12275,7 +12053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 353.06 67.31 0)
 			(effects
 				(font
@@ -12475,7 +12253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 387.35 39.37 0)
 			(effects
 				(font
@@ -12679,72 +12457,6 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
 					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 168.91 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc26bd6e-a373-46b1-a5e4-b2527eb42c60")
-		(property "Reference" "#PWR050"
-			(at 172.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_R"
-			(at 165.1 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 168.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "185ab669-98c6-48b9-ada4-9f9921aafd64")
-		)
-		(instances
-			(project "mSCKee"
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12996,7 +12708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 398.78 39.37 0)
 			(effects
 				(font
@@ -13142,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 398.78 53.34 0)
 			(effects
 				(font
@@ -13276,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 341.63 53.34 0)
 			(effects
 				(font
@@ -13319,73 +13031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:R")
-		(at 175.26 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5f812bb-4104-4ee2-b63f-25e0cf5eb391")
-		(property "Reference" "R13"
-			(at 175.26 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 175.26 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3eaa5e4-de56-4ede-8a46-5ee9832af5ea")
-		)
-		(pin "2"
-			(uuid "6651eb5d-745e-4746-a07d-2c5af07bf4dd")
-		)
-		(instances
-			(project ""
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 398.78 67.31 0)
 		(unit 1)
@@ -13411,7 +13056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-LED"
+		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
 			(at 398.78 67.31 0)
 			(effects
 				(font
