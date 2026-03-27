@@ -841,7 +841,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:4P4C_Shielded"
+		(symbol "Connector:4P4C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -857,7 +857,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "4P4C_Shielded"
+			(property "Value" "4P4C"
 				(at 2.54 8.89 0)
 				(effects
 					(font
@@ -884,7 +884,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22, Shielded"
+			(property "Description" "RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"
 				(at 0 0 0)
 				(effects
 					(font
@@ -911,7 +911,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "4P4C_Shielded_0_1"
+			(symbol "4P4C_0_1"
 				(polyline
 					(pts
 						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
@@ -986,25 +986,7 @@
 					)
 				)
 			)
-			(symbol "4P4C_Shielded_1_1"
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "4P4C_1_1"
 				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -6658,6 +6640,16 @@
 		)
 		(uuid "12136bfb-06e5-4db2-a907-c17749a081e1")
 	)
+	(text "To host device: For USB keyboard recognition\nand drawing power (USB 2.0 non-PD)"
+		(exclude_from_sim no)
+		(at 519.43 143.51 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1223bd4c-29ef-4d91-8e7f-8aec57980147")
+	)
 	(text "white LED"
 		(exclude_from_sim no)
 		(at 43.18 245.11 0)
@@ -6935,12 +6927,6 @@
 		(uuid "0957e828-f96b-4c36-aec2-d93f04f9424a")
 	)
 	(junction
-		(at 468.63 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cbc5dce-97e8-4beb-b99e-93641ff48713")
-	)
-	(junction
 		(at 304.8 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6999,12 +6985,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39d5c3e5-8b48-488a-af4a-1beb0b4af37f")
-	)
-	(junction
-		(at 440.69 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ad5eb8a-136f-4b05-a78b-df21dcb5338a")
 	)
 	(junction
 		(at 410.21 306.07)
@@ -7083,6 +7063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55e9282b-67e9-45b7-9602-78c66892ed7f")
+	)
+	(junction
+		(at 472.44 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b04e89d-71cf-4a34-b661-2ddb07aef076")
 	)
 	(junction
 		(at 402.59 93.98)
@@ -7167,12 +7153,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80c8eb0a-4ebd-4686-9101-12997f8ac0b2")
-	)
-	(junction
-		(at 472.44 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8309e8f6-b753-4925-8056-838800c2164d")
 	)
 	(junction
 		(at 410.21 334.01)
@@ -7522,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 186.69) (xy 440.69 193.04)
+			(xy 440.69 186.69) (xy 440.69 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7542,16 +7522,6 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 193.04) (xy 515.62 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de90f7d-c863-4aab-bb7c-f64f838704b2")
-	)
-	(wire
-		(pts
 			(xy 261.62 157.48) (xy 262.89 157.48)
 		)
 		(stroke
@@ -7559,16 +7529,6 @@
 			(type default)
 		)
 		(uuid "0dedc71c-7c16-445f-a11f-efa382fe750b")
-	)
-	(wire
-		(pts
-			(xy 515.62 187.96) (xy 518.16 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e804707-ee2c-4361-b70f-8f68388e159b")
 	)
 	(wire
 		(pts
@@ -7842,16 +7802,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 127) (xy 469.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e229ee-cdc8-439e-af10-1512a50ea1fa")
-	)
-	(wire
-		(pts
 			(xy 46.99 252.73) (xy 52.07 252.73)
 		)
 		(stroke
@@ -8052,16 +8002,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 193.04) (xy 440.69 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fecb9f8-36f2-4151-b987-5df282e0afa3")
-	)
-	(wire
-		(pts
 			(xy 356.87 130.81) (xy 361.95 130.81)
 		)
 		(stroke
@@ -8219,16 +8159,6 @@
 			(type default)
 		)
 		(uuid "4ed72882-4086-4191-a748-a703ce2dce4c")
-	)
-	(wire
-		(pts
-			(xy 468.63 127) (xy 463.55 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f498fbc-44b2-48e9-bf18-6a3b4355d9ff")
 	)
 	(wire
 		(pts
@@ -8432,7 +8362,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 127) (xy 472.44 128.27)
+			(xy 466.09 127) (xy 466.09 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8579,16 +8509,6 @@
 			(type default)
 		)
 		(uuid "71219295-1068-495b-b703-23eba6ec008d")
-	)
-	(wire
-		(pts
-			(xy 477.52 127) (xy 472.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bf63c9-8496-4f15-b21a-6e101079a704")
 	)
 	(wire
 		(pts
@@ -9342,6 +9262,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 127) (xy 472.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7625294-9a6a-48ff-a2d5-027697458614")
+	)
+	(wire
+		(pts
 			(xy 365.76 245.11) (xy 365.76 247.65)
 		)
 		(stroke
@@ -9349,6 +9279,16 @@
 			(type default)
 		)
 		(uuid "b9921b26-de6e-46af-8f2c-e9afa0e2ab67")
+	)
+	(wire
+		(pts
+			(xy 466.09 127) (xy 469.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5fa2cc-3c48-4eeb-937c-f693f5bf71ed")
 	)
 	(wire
 		(pts
@@ -9882,6 +9822,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 127) (xy 477.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f385e5df-f05f-431c-85b6-a80974b69403")
+	)
+	(wire
+		(pts
 			(xy 410.21 166.37) (xy 419.1 166.37)
 		)
 		(stroke
@@ -9919,16 +9869,6 @@
 			(type default)
 		)
 		(uuid "f765d4a2-5cde-4970-ae81-8a8c37a08d31")
-	)
-	(wire
-		(pts
-			(xy 469.9 127) (xy 468.63 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f40ca1-07f9-482d-83ec-45de5abb8cfd")
 	)
 	(wire
 		(pts
@@ -13443,7 +13383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 384.81 298.45 0)
 			(effects
 				(font
@@ -14015,7 +13955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 407.67 298.45 0)
 			(effects
 				(font
@@ -14155,7 +14095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 396.24 326.39 0)
 			(effects
 				(font
@@ -14957,7 +14897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fc0a44-aa9a-4dc5-b83d-668a4e575ebe")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 448.31 262.8899 90)
 			(effects
 				(font
@@ -15008,7 +14948,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16432,7 +16372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 430.53 298.45 0)
 			(effects
 				(font
@@ -16855,7 +16795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 384.81 326.39 0)
 			(effects
 				(font
@@ -16923,7 +16863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 384.81 312.42 0)
 			(effects
 				(font
@@ -16991,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 407.67 312.42 0)
 			(effects
 				(font
@@ -17028,6 +16968,82 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:4P4C")
+		(at 515.62 200.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920b1b40-a4ae-495f-850a-ba043cab8363")
+		(property "Reference" "J5"
+			(at 524.51 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4P4C"
+			(at 524.51 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ9_Evercom_5301-440xxx_Horizontal"
+			(at 515.62 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"
+			(at 515.62 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c8125973-40f2-4c4a-94e5-aa2491537eec")
+		)
+		(pin "2"
+			(uuid "3e69c5a7-7024-4a1e-ad40-61c7a8202bde")
+		)
+		(pin "1"
+			(uuid "9038156f-03c2-41d5-ad48-2643b93a38da")
+		)
+		(pin "4"
+			(uuid "0fbbfa45-6776-49d8-b1d4-8de3069f6643")
+		)
+		(instances
+			(project ""
+				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17492,16 +17508,15 @@
 	)
 	(symbol
 		(lib_id "library:GND")
-		(at 472.44 128.27 0)
+		(at 466.09 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96bbb7bf-ed90-4197-b1d3-b749caf325a8")
 		(property "Reference" "#PWR05"
-			(at 472.44 134.62 0)
+			(at 466.09 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17510,7 +17525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 472.44 133.35 0)
+			(at 462.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +17533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 472.44 128.27 0)
+			(at 466.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17527,7 +17542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 472.44 128.27 0)
+			(at 466.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17536,7 +17551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 128.27 0)
+			(at 466.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17588,7 +17603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 419.1 312.42 0)
 			(effects
 				(font
@@ -17656,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 373.38 312.42 0)
 			(effects
 				(font
@@ -17992,71 +18007,6 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:GND")
-		(at 518.16 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b04b16bb-5be9-44f9-bd20-c6daedb66ff6")
-		(property "Reference" "#PWR017"
-			(at 518.16 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 518.16 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 518.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 518.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd8f85f3-d245-4516-a4b7-453625b85d6d")
-		)
-		(instances
-			(project ""
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18403,7 +18353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 373.38 298.45 0)
 			(effects
 				(font
@@ -18447,15 +18397,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 440.69 193.04 270)
+		(at 472.44 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b66f45ca-b526-4284-9d7e-9e95a13cec42")
-		(property "Reference" "TP3"
-			(at 445.77 191.7699 90)
+		(property "Reference" "TP1"
+			(at 469.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18464,7 +18414,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 445.77 194.3099 90)
+			(at 473.7099 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18473,7 +18423,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 440.69 198.12 0)
+			(at 477.52 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18482,7 +18432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 440.69 198.12 0)
+			(at 477.52 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18491,7 +18441,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 440.69 193.04 0)
+			(at 472.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18505,13 +18455,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-			(project "master_side"
-				(path "/a23f695f-f0cb-4683-9b10-b0a959e3cdba"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18578,79 +18522,6 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 468.63 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b93eceb5-2463-4d6f-831c-66bac88bf865")
-		(property "Reference" "TP1"
-			(at 471.17 122.4279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 471.17 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 473.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 473.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 468.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fddfbb1-8441-4fbd-88d5-2dba80e50406")
-		)
-		(instances
-			(project "mSCKee"
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "master_side"
-				(path "/a23f695f-f0cb-4683-9b10-b0a959e3cdba"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -18863,7 +18734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 430.53 326.39 0)
 			(effects
 				(font
@@ -19034,85 +18905,6 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:4P4C_Shielded")
-		(at 515.62 200.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c42ab251-f76e-4480-b9ac-2ab4cb44e313")
-		(property "Reference" "J3"
-			(at 524.51 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4P4C_Shielded"
-			(at 524.51 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ9_Evercom_5301-440xxx_Horizontal"
-			(at 515.62 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 515.62 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22, Shielded"
-			(at 515.62 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ee6d03d-b5fb-4f9a-a778-95fe4ff6dc68")
-		)
-		(pin "2"
-			(uuid "65e5e81c-0601-4258-ac12-570f5bef7548")
-		)
-		(pin "4"
-			(uuid "49a24772-583e-4484-9dac-f81e54fe5daa")
-		)
-		(pin "SH"
-			(uuid "cf1e39f5-3124-40e1-bfd6-3652962ed283")
-		)
-		(pin "3"
-			(uuid "3bebf40f-5898-4601-a00d-875ab67904d6")
-		)
-		(instances
-			(project ""
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -19305,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 373.38 326.39 0)
 			(effects
 				(font
@@ -19517,7 +19309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 430.53 312.42 0)
 			(effects
 				(font
@@ -19568,7 +19360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd12fbd2-cdea-45aa-a6f3-d3a20d70bb7a")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 330.2 223.52 90)
 			(effects
 				(font
@@ -19618,7 +19410,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -19866,7 +19658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 396.24 312.42 0)
 			(effects
 				(font
@@ -20003,7 +19795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 407.67 326.39 0)
 			(effects
 				(font
@@ -20071,7 +19863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 419.1 298.45 0)
 			(effects
 				(font
@@ -20122,7 +19914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8012d96-9028-43d3-be68-a2cf6c4b4f16")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 330.2 231.14 90)
 			(effects
 				(font
@@ -20172,7 +19964,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20650,7 +20442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 396.24 298.45 0)
 			(effects
 				(font
@@ -20807,7 +20599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ai03-MX_V2:MX-Solderable-1U"
+		(property "Footprint" "ai03-MX_V2:MX-LED"
 			(at 419.1 326.39 0)
 			(effects
 				(font

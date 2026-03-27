@@ -522,6 +522,9 @@
       "unconnected-(IC2-VSS-Pad34)": [
         "R_GND"
       ],
+      "unconnected-(J3-Pad2)": [
+        "R_GND"
+      ],
       "unconnected-(J4-Pad2)": [
         "R_GND"
       ],
