@@ -486,6 +486,9 @@
       "Net-(IC2-AD0)": [
         "R_GND"
       ],
+      "Net-(U5-A0)": [
+        "R_GND"
+      ],
       "Net-(U8-AD0)": [
         "R_GND"
       ],
@@ -525,10 +528,19 @@
       "unconnected-(J4-PadSH)": [
         "R_GND"
       ],
-      "unconnected-(R17-Pad1)": [
+      "unconnected-(R14-Pad1)": [
+        "R_GND"
+      ],
+      "unconnected-(R18-Pad1)": [
         "R_GND"
       ],
       "unconnected-(U5-GND-Pad1)": [
+        "R_GND"
+      ],
+      "unconnected-(U5-HTAB-Pad29)": [
+        "R_GND"
+      ],
+      "unconnected-(U5-VSS-Pad6)": [
         "R_GND"
       ],
       "unconnected-(U6-A0-Pad21)": [
