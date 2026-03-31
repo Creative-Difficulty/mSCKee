@@ -510,6 +510,9 @@
       "unconnected-(C21-Pad2)": [
         "R_GND"
       ],
+      "unconnected-(C22-Pad1)": [
+        "R_GND"
+      ],
       "unconnected-(C22-Pad2)": [
         "R_GND"
       ],
@@ -517,6 +520,9 @@
         "R_GND"
       ],
       "unconnected-(C24-Pad1)": [
+        "R_GND"
+      ],
+      "unconnected-(C24-Pad2)": [
         "R_GND"
       ],
       "unconnected-(C25-Pad2)": [

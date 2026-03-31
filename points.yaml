@@ -608,7 +608,7 @@ matrix_index_1_number:
 thumb_tucky:
   x: 128.10500000000002
   'y': -114.28750000000001
-  r: -12.620000000000001
+  r: -12
   meta:
     stagger: 0
     spread: 19
@@ -628,18 +628,24 @@ thumb_tucky:
     autobind: 10
     skip: false
     asym: both
-    colrow: tucky_default
+    colrow: tucky_thumb
     name: thumb_tucky
-    zone: &ref_8
+    row_net: ROW4
+    mirror: &ref_6
+      row_net: ROW4R
+    zone: &ref_9
       columns:
-        tucky: &ref_6
+        tucky: &ref_7
           key:
             name: thumb_tucky
             splay: -5
             padding: 1.05U
-          rows: {}
+          rows:
+            thumb:
+              row_net: ROW4
+              mirror: *ref_6
           name: tucky
-        reachy: &ref_9
+        reachy: &ref_10
           key:
             shift:
               - 0.4U
@@ -648,16 +654,16 @@ thumb_tucky:
             splay: -5
           rows:
             bottom:
-              row_net: ROW6
-              mirror: &ref_7
-                row_net: ROW6R
+              row_net: ROW5
+              mirror: &ref_8
+                row_net: ROW5R
               padding: 1.05U
               shift:
                 - '-0.3U'
                 - '-1.1U'
             top:
               row_net: ROW6
-              mirror: &ref_10
+              mirror: &ref_11
                 row_net: ROW6R
               padding: 1.05U
               shift:
@@ -665,8 +671,8 @@ thumb_tucky:
                 - 0U
           name: reachy
       name: thumb
-    col: *ref_6
-    row: default
+    col: *ref_7
+    row: thumb
     mirrored: false
     bind:
       - 0
@@ -674,9 +680,9 @@ thumb_tucky:
       - 0
       - 0
 thumb_reachy_bottom:
-  x: 135.8342366
-  'y': -136.899676
-  r: -17.62
+  x: 136.0784666
+  'y': -136.8147155
+  r: -17
   meta:
     stagger: 0
     spread: 20.0025
@@ -698,10 +704,10 @@ thumb_reachy_bottom:
     asym: both
     colrow: reachy_bottom
     name: thumb_reachy_bottom
-    row_net: ROW6
-    mirror: *ref_7
-    zone: *ref_8
-    col: *ref_9
+    row_net: ROW5
+    mirror: *ref_8
+    zone: *ref_9
+    col: *ref_10
     row: bottom
     mirrored: false
     bind:
@@ -710,9 +716,9 @@ thumb_reachy_bottom:
       - 0
       - 0
 thumb_reachy_top:
-  x: 149.1515535
-  'y': -120.1421858
-  r: -17.62
+  x: 149.2136738
+  'y': -119.914102
+  r: -17
   meta:
     stagger: 0
     spread: 20.0025
@@ -735,9 +741,9 @@ thumb_reachy_top:
     colrow: reachy_top
     name: thumb_reachy_top
     row_net: ROW6
-    mirror: *ref_10
-    zone: *ref_8
-    col: *ref_9
+    mirror: *ref_11
+    zone: *ref_9
+    col: *ref_10
     row: top
     mirrored: false
     bind:
@@ -2170,7 +2176,7 @@ mirror_matrix_index_1_number:
 mirror_thumb_tucky:
   x: 221.89499999999998
   'y': -114.28750000000001
-  r: 12.620000000000001
+  r: 12
   meta:
     stagger: 0
     spread: 19
@@ -2190,8 +2196,11 @@ mirror_thumb_tucky:
     autobind: 10
     skip: false
     asym: both
-    colrow: mirror_tucky_default
+    colrow: mirror_tucky_thumb
     name: mirror_thumb_tucky
+    row_net: ROW4R
+    mirror:
+      row_net: ROW4R
     zone:
       columns:
         tucky:
@@ -2199,7 +2208,11 @@ mirror_thumb_tucky:
             name: thumb_tucky
             splay: -5
             padding: 1.05U
-          rows: {}
+          rows:
+            thumb:
+              row_net: ROW4
+              mirror:
+                row_net: ROW4R
           name: tucky
         reachy:
           key:
@@ -2210,9 +2223,9 @@ mirror_thumb_tucky:
             splay: -5
           rows:
             bottom:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
+                row_net: ROW5R
               padding: 1.05U
               shift:
                 - '-0.3U'
@@ -2232,9 +2245,13 @@ mirror_thumb_tucky:
         name: thumb_tucky
         splay: -5
         padding: 1.05U
-      rows: {}
+      rows:
+        thumb:
+          row_net: ROW4
+          mirror:
+            row_net: ROW4R
       name: tucky
-    row: default
+    row: thumb
     mirrored: true
     bind:
       - 0
@@ -2242,9 +2259,9 @@ mirror_thumb_tucky:
       - 0
       - 0
 mirror_thumb_reachy_bottom:
-  x: 214.1657634
-  'y': -136.899676
-  r: 17.62
+  x: 213.9215334
+  'y': -136.8147155
+  r: 17
   meta:
     stagger: 0
     spread: 20.0025
@@ -2266,9 +2283,9 @@ mirror_thumb_reachy_bottom:
     asym: both
     colrow: mirror_reachy_bottom
     name: mirror_thumb_reachy_bottom
-    row_net: ROW6R
+    row_net: ROW5R
     mirror:
-      row_net: ROW6R
+      row_net: ROW5R
     zone:
       columns:
         tucky:
@@ -2276,7 +2293,11 @@ mirror_thumb_reachy_bottom:
             name: thumb_tucky
             splay: -5
             padding: 1.05U
-          rows: {}
+          rows:
+            thumb:
+              row_net: ROW4
+              mirror:
+                row_net: ROW4R
           name: tucky
         reachy:
           key:
@@ -2287,9 +2308,9 @@ mirror_thumb_reachy_bottom:
             splay: -5
           rows:
             bottom:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
+                row_net: ROW5R
               padding: 1.05U
               shift:
                 - '-0.3U'
@@ -2313,9 +2334,9 @@ mirror_thumb_reachy_bottom:
         splay: -5
       rows:
         bottom:
-          row_net: ROW6
+          row_net: ROW5
           mirror:
-            row_net: ROW6R
+            row_net: ROW5R
           padding: 1.05U
           shift:
             - '-0.3U'
@@ -2337,9 +2358,9 @@ mirror_thumb_reachy_bottom:
       - 0
       - 0
 mirror_thumb_reachy_top:
-  x: 200.8484465
-  'y': -120.1421858
-  r: 17.62
+  x: 200.7863262
+  'y': -119.914102
+  r: 17
   meta:
     stagger: 0
     spread: 20.0025
@@ -2371,7 +2392,11 @@ mirror_thumb_reachy_top:
             name: thumb_tucky
             splay: -5
             padding: 1.05U
-          rows: {}
+          rows:
+            thumb:
+              row_net: ROW4
+              mirror:
+                row_net: ROW4R
           name: tucky
         reachy:
           key:
@@ -2382,9 +2407,9 @@ mirror_thumb_reachy_top:
             splay: -5
           rows:
             bottom:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
+                row_net: ROW5R
               padding: 1.05U
               shift:
                 - '-0.3U'
@@ -2408,9 +2433,9 @@ mirror_thumb_reachy_top:
         splay: -5
       rows:
         bottom:
-          row_net: ROW6
+          row_net: ROW5
           mirror:
-            row_net: ROW6R
+            row_net: ROW5R
           padding: 1.05U
           shift:
             - '-0.3U'

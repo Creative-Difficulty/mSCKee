@@ -1169,7 +1169,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1184,7 +1184,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -1210,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1237,7 +1237,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -1326,8 +1326,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1528,7 +1550,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -1798,6 +1820,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8010,7 +8068,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 113.03) (xy 281.94 115.57)
+			(xy 281.94 111.76) (xy 281.94 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8820,7 +8878,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 113.03) (xy 281.94 113.03)
+			(xy 295.91 111.76) (xy 281.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9487,16 +9545,6 @@
 			(type default)
 		)
 		(uuid "a6942bba-fb6c-452c-919f-a4f5cf3b4666")
-	)
-	(wire
-		(pts
-			(xy 295.91 111.76) (xy 295.91 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ee22cf-0ae9-42f7-be03-efb06d0649a4")
 	)
 	(wire
 		(pts
@@ -14022,7 +14070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e0c387-bf5b-4eeb-b7b3-d93cbee84298")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 140.97 212.09 0)
 			(effects
 				(font
@@ -14076,7 +14124,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14743,7 +14791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27b4b6f3-d1f4-4efa-9e3f-5a89405ba8ee")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 46.99 256.54 0)
 			(effects
 				(font
@@ -14793,7 +14841,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14809,7 +14857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "282f5b06-3e0e-417f-82fc-e48b60132aef")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 110.49 219.71 0)
 			(effects
 				(font
@@ -14859,7 +14907,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16118,7 +16166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f82a308-6112-42f3-8819-517bb8e490e0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 110.49 252.73 0)
 			(effects
 				(font
@@ -16168,7 +16216,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17282,121 +17330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 311.15 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77e14d82-b02a-4726-8cd9-fcd95349274c")
-		(property "Reference" "J1"
-			(at 322.58 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 322.58 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
-			(at 307.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 307.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 311.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "7024cd44-e97d-4aaa-97e0-eab2209099d1")
-		)
-		(pin "A1"
-			(uuid "0ba07778-c8af-489f-a6e4-cb441f721a91")
-		)
-		(pin "A12"
-			(uuid "d93aca11-9403-42d4-b405-cfdb35882122")
-		)
-		(pin "B1"
-			(uuid "c5a50299-b98e-45e8-8a1a-59708e86413f")
-		)
-		(pin "B12"
-			(uuid "86cdc9f3-c5a8-4529-8157-d9a2624f850b")
-		)
-		(pin "A4"
-			(uuid "312f24e6-efd3-45ec-b7d8-8198e2e6ccdd")
-		)
-		(pin "A9"
-			(uuid "40e528ac-a821-4fb9-91db-f427b1705357")
-		)
-		(pin "B4"
-			(uuid "9f2bccc2-89d0-4244-996c-b1c97307962d")
-		)
-		(pin "B9"
-			(uuid "c389cc05-d6a1-4d08-9983-69b689a8ceda")
-		)
-		(pin "A5"
-			(uuid "a827f03a-1b48-42ad-9bc9-d652e08afd69")
-		)
-		(pin "B5"
-			(uuid "900a9e00-eb89-49db-a238-8e72ba09fc62")
-		)
-		(pin "A7"
-			(uuid "776f0527-c63f-4b3f-8756-434639677c08")
-		)
-		(pin "B7"
-			(uuid "3916a6c0-b4e4-47c0-a15a-f22f7be9fedd")
-		)
-		(pin "A6"
-			(uuid "006eb3a5-5bf7-485c-a5c3-f945b6e36865")
-		)
-		(pin "B6"
-			(uuid "24c7a742-0716-4719-a32c-a5a02e15ef63")
-		)
-		(instances
-			(project "mSCKee"
-				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "master_side"
-				(path "/a23f695f-f0cb-4683-9b10-b0a959e3cdba"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 189.23 232.41 180)
 		(unit 1)
@@ -17487,7 +17420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b69b2d5-f4bf-4dbc-b7c2-5f850ce66198")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 318.77 219.71 0)
 			(effects
 				(font
@@ -17537,7 +17470,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17785,7 +17718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8079db9c-2db1-427b-837f-0409b1bf3f5b")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 180.34 227.33 90)
 			(effects
 				(font
@@ -17837,7 +17770,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17927,7 +17860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84983c4c-d905-40fd-90ab-a23c8966638d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 351.79 232.41 0)
 			(effects
 				(font
@@ -17977,7 +17910,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18066,7 +17999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8618e990-51ec-4f8b-89d2-7fccf0899cc9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR028"
 			(at 314.96 207.01 0)
 			(effects
 				(font
@@ -18116,7 +18049,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18138,7 +18071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87abb622-ffd3-4788-bda6-f78ae7ad2f7b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 129.54 201.93 0)
 			(effects
 				(font
@@ -18188,7 +18121,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18274,7 +18207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cdc3ee3-d1b4-41e8-b387-d352d8fcf99d")
-		(property "Reference" "SW21"
+		(property "Reference" "OSW3"
 			(at 177.8 255.27 0)
 			(effects
 				(font
@@ -18332,7 +18265,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "SW21")
+					(reference "OSW3")
 					(unit 1)
 				)
 			)
@@ -18416,7 +18349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ec09b51-7e8f-4f81-bb45-437ef5df4953")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 110.49 242.57 0)
 			(effects
 				(font
@@ -18466,7 +18399,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -18482,7 +18415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f043977-89f5-460d-92af-49b4a1eb9618")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 281.94 212.09 0)
 			(effects
 				(font
@@ -18533,7 +18466,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -19158,7 +19091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95a7542d-f5e7-4ef2-b483-57d9df3db773")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 198.12 238.76 0)
 			(effects
 				(font
@@ -19208,7 +19141,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -19925,7 +19858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1058528-0ffa-4f95-bced-99c38a5ab129")
-		(property "Reference" "SW19"
+		(property "Reference" "OSW1"
 			(at 90.17 128.27 90)
 			(effects
 				(font
@@ -19979,7 +19912,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "SW19")
+					(reference "OSW1")
 					(unit 1)
 				)
 			)
@@ -20132,7 +20065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa91b368-2bd5-4fba-ab2a-3dac5a3a4707")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 138.43 214.63 0)
 			(effects
 				(font
@@ -20182,7 +20115,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20273,7 +20206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe6da57-bafc-403c-9c73-8011155b38a9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 52.07 250.19 0)
 			(effects
 				(font
@@ -20323,7 +20256,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -20572,7 +20505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3cc553-f6fd-47ce-bd94-f70bfa1f2750")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 52.07 240.03 0)
 			(effects
 				(font
@@ -20622,7 +20555,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -20637,7 +20570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0255465-46de-4d74-8c10-438e1272a701")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 163.83 264.16 0)
 			(effects
 				(font
@@ -20688,7 +20621,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20870,7 +20803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2d96583-4118-4264-a0f7-02ac82e2bf98")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 271.78 209.55 0)
 			(effects
 				(font
@@ -20919,7 +20852,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -21164,7 +21097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68abc90-6b70-430d-9299-6756d8dac965")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 358.14 229.87 0)
 			(effects
 				(font
@@ -21214,7 +21147,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21904,7 +21837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5ff89e-c47b-4736-9207-59e499a9d6da")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 38.1 213.36 0)
 			(effects
 				(font
@@ -21956,7 +21889,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -22180,7 +22113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfdee511-7b8e-4a53-b481-1ad1cd209e8b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 198.12 252.73 0)
 			(effects
 				(font
@@ -22230,7 +22163,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -22593,7 +22526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7dacfbe-5ae1-46d3-93d5-e8bec0e0b3ce")
-		(property "Reference" "SW20"
+		(property "Reference" "OSW2"
 			(at 153.67 172.72 0)
 			(effects
 				(font
@@ -22647,7 +22580,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "SW20")
+					(reference "OSW2")
 					(unit 1)
 				)
 			)
@@ -22728,7 +22661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e80fddf5-1c2d-47a8-9f6f-33854f6f1f62")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 121.92 209.55 0)
 			(effects
 				(font
@@ -22779,7 +22712,7 @@
 		(instances
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23399,6 +23332,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 311.15 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81409a3-daed-4bfa-952b-b5507a167212")
+		(property "Reference" "J4"
+			(at 322.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 322.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 307.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 307.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 311.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "f6a0c7ca-950c-45c0-b92f-32530f3b25c9")
+		)
+		(pin "A12"
+			(uuid "a2c20c2b-b31a-4221-8389-3f34a78f9361")
+		)
+		(pin "A1"
+			(uuid "c4a48666-a261-42e2-b32f-322ba522e508")
+		)
+		(pin "B12"
+			(uuid "3739996d-dd42-460f-b3be-885e1fe77ace")
+		)
+		(pin "B1"
+			(uuid "f70a8a47-148f-4be5-a632-28f48cf179c4")
+		)
+		(pin "A9"
+			(uuid "eacaf2fa-a901-42db-ad40-d721e1025191")
+		)
+		(pin "A4"
+			(uuid "bb8fe6b3-f7ea-4fe9-bd63-6f598463f400")
+		)
+		(pin "B8"
+			(uuid "322d2f11-871a-4794-aa66-d41d9c0a0d62")
+		)
+		(pin "A6"
+			(uuid "84a3648c-324a-4d35-bedc-cc6d2ac232d5")
+		)
+		(pin "A7"
+			(uuid "a1ccf5ba-5112-44be-b510-01de10f0a5f1")
+		)
+		(pin "B6"
+			(uuid "937063d6-9960-467a-b70b-bf62440518d5")
+		)
+		(pin "B7"
+			(uuid "ec83752f-8fcb-468b-897f-92509afff40c")
+		)
+		(pin "B5"
+			(uuid "7927c60f-72b1-473e-aef5-bfb8fafae009")
+		)
+		(pin "A8"
+			(uuid "4f26a3f4-28af-4c68-babc-70e2ae49afe3")
+		)
+		(pin "A5"
+			(uuid "cb987508-0500-4a15-ae9d-0fba780ff8f0")
+		)
+		(pin "B4"
+			(uuid "62628b70-b964-4ee2-acc1-c8192b86a461")
+		)
+		(pin "B9"
+			(uuid "283a4df2-0ad8-417f-af41-db711fb5833e")
+		)
+		(instances
+			(project ""
+				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 375.92 63.5 0)
 		(unit 1)
@@ -23606,7 +23654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda707e8-d7e5-4991-bff6-36624ad27060")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 317.5 208.28 0)
 			(effects
 				(font
@@ -23657,7 +23705,7 @@
 		(instances
 			(project ""
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
