@@ -3,8 +3,8 @@ INFO: kbplacer_plugin_action.py:74: Python version: '3.9.13 (v3.9.13:6de2ca5339,
 INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.3 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.8
 INFO: kbplacer_dialog.py:695: Language: en
 INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "/Users/alexeschanz/Documents/mSCKee/layout.json", "key_distance": [20.955, 20.0025], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "LD{}", "position_option": "Custom", "position": {"x": 0.0, "y": -5.075, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 10.0, "layout_offset": null}
-DEBUG: key_placer.py:143: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL11', 'ROW2'}): ['SW36'], frozenset({'COL10', 'ROW2'}): ['SW35'], frozenset({'COL9', 'ROW2'}): ['SW34'], frozenset({'ROW2', 'COL8'}): ['SW33'], frozenset({'ROW2', 'COL7'}): ['SW32'], frozenset({'ROW2', 'COL6'}): ['SW31'], frozenset({'COL11', 'ROW1'}): ['SW30'], frozenset({'COL10', 'ROW1'}): ['SW29'], frozenset({'COL9', 'ROW1'}): ['SW28'], frozenset({'COL8', 'ROW1'}): ['SW27'], frozenset({'COL7', 'ROW1'}): ['SW26'], frozenset({'COL6', 'ROW1'}): ['SW25'], frozenset({'COL11', 'ROW0'}): ['SW24'], frozenset({'ROW0', 'COL10'}): ['SW23'], frozenset({'ROW0', 'COL9'}): ['SW22'], frozenset({'ROW0', 'COL8'}): ['SW21'], frozenset({'ROW0', 'COL7'}): ['SW20'], frozenset({'ROW0', 'COL6'}): ['SW19'], frozenset({'ROW2', 'COL5'}): ['SW18'], frozenset({'ROW2', 'COL4'}): ['SW17'], frozenset({'ROW2', 'COL3'}): ['SW16'], frozenset({'ROW2', 'COL2'}): ['SW15'], frozenset({'ROW2', 'COL1'}): ['SW14'], frozenset({'ROW2', 'COL0'}): ['SW13'], frozenset({'COL5', 'ROW1'}): ['SW12'], frozenset({'COL4', 'ROW1'}): ['SW11'], frozenset({'ROW1', 'COL3'}): ['SW10'], frozenset({'COL2', 'ROW1'}): ['SW9'], frozenset({'ROW1', 'COL1'}): ['SW8'], frozenset({'COL0', 'ROW1'}): ['SW7'], frozenset({'ROW0', 'COL5'}): ['SW6'], frozenset({'ROW0', 'COL4'}): ['SW5'], frozenset({'ROW0', 'COL3'}): ['SW4'], frozenset({'ROW0', 'COL2'}): ['SW3'], frozenset({'ROW0', 'COL1'}): ['SW2'], frozenset({'ROW0', 'COL0'}): ['SW1']})
-DEBUG: key_placer.py:147: Diodes by switch: {'SW36': ['D38'], 'SW35': ['D37'], 'SW34': ['D36'], 'SW33': ['D35'], 'SW32': ['D34'], 'SW31': ['D33'], 'SW30': ['D32'], 'SW29': ['D31'], 'SW28': ['D30'], 'SW27': ['D29'], 'SW26': ['D28'], 'SW25': ['D27'], 'SW24': ['D26'], 'SW23': ['D25'], 'SW22': ['D24'], 'SW21': ['D23'], 'SW20': ['D22'], 'SW19': ['D21'], 'SW18': ['D18'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW15': ['D15'], 'SW14': ['D14'], 'SW13': ['D13'], 'SW12': ['D12'], 'SW11': ['D11'], 'SW10': ['D10'], 'SW9': ['D9'], 'SW8': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2'], 'SW1': ['D1']}
+DEBUG: key_placer.py:143: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL0', 'ROW0'}): ['SW1'], frozenset({'ROW0', 'COL1'}): ['SW2'], frozenset({'COL2', 'ROW0'}): ['SW3'], frozenset({'COL3', 'ROW0'}): ['SW4'], frozenset({'COL4', 'ROW0'}): ['SW5'], frozenset({'COL5', 'ROW0'}): ['SW6'], frozenset({'COL0', 'ROW1'}): ['SW7'], frozenset({'ROW1', 'COL1'}): ['SW8'], frozenset({'COL2', 'ROW1'}): ['SW9'], frozenset({'COL3', 'ROW1'}): ['SW10'], frozenset({'COL4', 'ROW1'}): ['SW11'], frozenset({'COL5', 'ROW1'}): ['SW12'], frozenset({'COL0', 'ROW2'}): ['SW13'], frozenset({'ROW2', 'COL1'}): ['SW14'], frozenset({'ROW2', 'COL2'}): ['SW15'], frozenset({'COL3', 'ROW2'}): ['SW16'], frozenset({'ROW2', 'COL4'}): ['SW17'], frozenset({'ROW2', 'COL5'}): ['SW18'], frozenset({'ROW2', 'COL8'}): ['SW33'], frozenset({'ROW2', 'COL7'}): ['SW32'], frozenset({'ROW2', 'COL6'}): ['SW31'], frozenset({'ROW1', 'COL6'}): ['SW25'], frozenset({'COL9', 'ROW0'}): ['SW22'], frozenset({'ROW0', 'COL6'}): ['SW19'], frozenset({'ROW2', 'COL10'}): ['SW35'], frozenset({'COL9', 'ROW1'}): ['SW28'], frozenset({'ROW2', 'COL11'}): ['SW36'], frozenset({'COL10', 'ROW1'}): ['SW29'], frozenset({'COL11', 'ROW0'}): ['SW24'], frozenset({'COL8', 'ROW1'}): ['SW27'], frozenset({'COL8', 'ROW0'}): ['SW21'], frozenset({'COL7', 'ROW0'}): ['SW20'], frozenset({'COL10', 'ROW0'}): ['SW23'], frozenset({'COL7', 'ROW1'}): ['SW26'], frozenset({'COL11', 'ROW1'}): ['SW30'], frozenset({'ROW2', 'COL9'}): ['SW34']})
+DEBUG: key_placer.py:147: Diodes by switch: {'SW1': ['D1'], 'SW2': ['D2'], 'SW3': ['D3'], 'SW4': ['D4'], 'SW5': ['D5'], 'SW6': ['D6'], 'SW7': ['D7'], 'SW8': ['D8'], 'SW9': ['D9'], 'SW10': ['D10'], 'SW11': ['D11'], 'SW12': ['D12'], 'SW13': ['D13'], 'SW14': ['D14'], 'SW15': ['D15'], 'SW16': ['D16'], 'SW17': ['D17'], 'SW18': ['D18'], 'SW29': ['D31'], 'SW27': ['D29'], 'SW30': ['D32'], 'SW23': ['D25'], 'SW22': ['D24'], 'SW35': ['D37'], 'SW34': ['D36'], 'SW20': ['D22'], 'SW24': ['D26'], 'SW26': ['D28'], 'SW31': ['D33'], 'SW28': ['D30'], 'SW25': ['D27'], 'SW33': ['D35'], 'SW21': ['D23'], 'SW32': ['D34'], 'SW36': ['D38'], 'SW19': ['D21']}
 INFO: kle_serial.py:1031: User layout: [[{'x': 3.956574, 'y': 1.76036, 'w': 0.858984, 'h': 0.858984}, 'ROW0,COL2'], [{'x': 11.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW0R,COL2'], [{'x': 4.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW0,COL3'], [{'x': 10.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW0R,COL3'], [{'x': 5.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW0,COL4'], [{'x': 9.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW0R,COL4'], [{'x': 2.956574, 'y': -0.857143, 'w': 0.858984, 'h': 0.858984}, 'ROW0,COL1'], [{'x': 12.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW0R,COL1'], [{'x': 1.956574, 'y': -0.714286, 'w': 0.858984, 'h': 0.858984}, 'ROW0,COL0'], [{'x': 13.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW0R,COL0'], [{'x': 3.956574, 'y': -0.809523, 'w': 0.858984, 'h': 0.858984}, 'ROW1,COL2'], [{'x': 11.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW1R,COL2'], [{'x': 4.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW1,COL3'], [{'x': 10.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW1R,COL3'], [{'x': 5.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW1,COL4'], [{'x': 9.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW1R,COL4'], [{'x': 2.956574, 'y': -0.857143, 'w': 0.858984, 'h': 0.858984}, 'ROW1,COL1'], [{'x': 12.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW1R,COL1'], [{'x': 1.956574, 'y': -0.714286, 'w': 0.858984, 'h': 0.858984}, 'ROW1,COL0'], [{'x': 13.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW1R,COL0'], [{'x': 3.956574, 'y': -0.809523, 'w': 0.858984, 'h': 0.858984}, 'ROW2,COL2'], [{'x': 11.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW2R,COL2'], [{'x': 4.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW2,COL3'], [{'x': 10.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW2R,COL3'], [{'x': 5.956574, 'y': -0.809524, 'w': 0.858984, 'h': 0.858984}, 'ROW2,COL4'], [{'x': 9.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW2R,COL4'], [{'x': 2.956574, 'y': -0.857143, 'w': 0.858984, 'h': 0.858984}, 'ROW2,COL1'], [{'x': 12.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW2R,COL1'], [{'x': 1.956574, 'y': -0.714286, 'w': 0.858984, 'h': 0.858984}, 'ROW2,COL0'], [{'x': 13.886901, 'y': -1.0, 'w': 0.858984, 'h': 0.858984}, 'ROW2R,COL0'], [{'r': 20, 'rx': 6.113338, 'ry': 5.713661, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW3,COL5'], [{'r': -20, 'rx': 10.58912, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW3R,COL5'], [{'r': 20, 'rx': 7.049972, 'ry': 6.073462, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW5,COL7'], [{'r': -20, 'rx': 9.652485, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW5R,COL7'], [{'r': 20, 'rx': 6.367062, 'ry': 6.925259, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW6,COL7'], [{'r': -20, 'rx': 10.335396, 'x': -0.429492, 'y': -0.429492, 'w': 0.858984, 'h': 0.858984}, 'ROW6R,COL7']]
 DEBUG: key_placer.py:755: Using key 1U distance: (20.955, 20.0025) mm
 DEBUG: key_placer.py:773: Layout offset: (33819987, 36207486)
@@ -126,21 +126,78 @@ DEBUG: board_modifier.py:132: Getting D37 footprint position: (170647328, 180226
 DEBUG: board_modifier.py:132: Getting SW36 footprint position: (250398210, 174729979)
 DEBUG: board_modifier.py:119: Setting D38 footprint position: (256539929, 176751287)
 DEBUG: board_modifier.py:132: Getting D38 footprint position: (256539929, 176751287)
-DEBUG: key_placer.py:928: Placing additional elements for SW36
-DEBUG: board_modifier.py:132: Getting SW36 footprint position: (250398210, 174729979)
-DEBUG: board_modifier.py:84: Searching for optional LD36 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD36 footprint position: (248662458, 169961039)
-DEBUG: board_modifier.py:132: Getting LD36 footprint position: (248662458, 169961039)
-DEBUG: key_placer.py:928: Placing additional elements for SW35
-DEBUG: board_modifier.py:132: Getting SW35 footprint position: (167241771, 174729979)
-DEBUG: board_modifier.py:84: Searching for optional LD35 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD35 footprint position: (168977523, 169961039)
-DEBUG: board_modifier.py:132: Getting LD35 footprint position: (168977523, 169961039)
-DEBUG: key_placer.py:928: Placing additional elements for SW34
-DEBUG: board_modifier.py:132: Getting SW34 footprint position: (236087810, 157691909)
-DEBUG: board_modifier.py:84: Searching for optional LD34 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD34 footprint position: (234352058, 152922969)
-DEBUG: board_modifier.py:132: Getting LD34 footprint position: (234352058, 152922969)
+DEBUG: key_placer.py:928: Placing additional elements for SW1
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (125730000, 80010000)
+DEBUG: board_modifier.py:84: Searching for optional LD1 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD1 footprint position: (125730000, 74935000)
+DEBUG: key_placer.py:928: Placing additional elements for SW2
+DEBUG: board_modifier.py:132: Getting SW2 footprint position: (291910002, 80010000)
+DEBUG: board_modifier.py:84: Searching for optional LD2 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD2 footprint position: (291910002, 74935000)
+DEBUG: key_placer.py:928: Placing additional elements for SW3
+DEBUG: board_modifier.py:132: Getting SW3 footprint position: (146685000, 83819996)
+DEBUG: board_modifier.py:84: Searching for optional LD3 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD3 footprint position: (146685000, 78744996)
+DEBUG: key_placer.py:928: Placing additional elements for SW4
+DEBUG: board_modifier.py:132: Getting SW4 footprint position: (270955002, 83819996)
+DEBUG: board_modifier.py:84: Searching for optional LD4 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD4 footprint position: (270955002, 78744996)
+DEBUG: key_placer.py:928: Placing additional elements for SW5
+DEBUG: board_modifier.py:132: Getting SW5 footprint position: (167640000, 87629993)
+DEBUG: board_modifier.py:84: Searching for optional LD5 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD5 footprint position: (167640000, 82554993)
+DEBUG: key_placer.py:928: Placing additional elements for SW6
+DEBUG: board_modifier.py:132: Getting SW6 footprint position: (250000002, 87629993)
+DEBUG: board_modifier.py:84: Searching for optional LD6 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD6 footprint position: (250000002, 82554993)
+DEBUG: key_placer.py:928: Placing additional elements for SW7
+DEBUG: board_modifier.py:132: Getting SW7 footprint position: (104775000, 90487490)
+DEBUG: board_modifier.py:84: Searching for optional LD7 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD7 footprint position: (104775000, 85412490)
+DEBUG: key_placer.py:928: Placing additional elements for SW8
+DEBUG: board_modifier.py:132: Getting SW8 footprint position: (312865002, 90487490)
+DEBUG: board_modifier.py:84: Searching for optional LD8 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD8 footprint position: (312865002, 85412490)
+DEBUG: key_placer.py:928: Placing additional elements for SW9
+DEBUG: board_modifier.py:132: Getting SW9 footprint position: (83820000, 96202484)
+DEBUG: board_modifier.py:84: Searching for optional LD9 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD9 footprint position: (83820000, 91127484)
+DEBUG: key_placer.py:928: Placing additional elements for SW10
+DEBUG: board_modifier.py:132: Getting SW10 footprint position: (333820002, 96202484)
+DEBUG: board_modifier.py:84: Searching for optional LD10 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD10 footprint position: (333820002, 91127484)
+DEBUG: key_placer.py:928: Placing additional elements for SW11
+DEBUG: board_modifier.py:132: Getting SW11 footprint position: (125730000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional LD11 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD11 footprint position: (125730000, 94937500)
+DEBUG: key_placer.py:928: Placing additional elements for SW12
+DEBUG: board_modifier.py:132: Getting SW12 footprint position: (291910002, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional LD12 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD12 footprint position: (291910002, 94937500)
+DEBUG: key_placer.py:928: Placing additional elements for SW13
+DEBUG: board_modifier.py:132: Getting SW13 footprint position: (146685000, 103822496)
+DEBUG: board_modifier.py:84: Searching for optional LD13 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD13 footprint position: (146685000, 98747496)
+DEBUG: key_placer.py:928: Placing additional elements for SW14
+DEBUG: board_modifier.py:132: Getting SW14 footprint position: (270955002, 103822496)
+DEBUG: board_modifier.py:84: Searching for optional LD14 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD14 footprint position: (270955002, 98747496)
+DEBUG: key_placer.py:928: Placing additional elements for SW15
+DEBUG: board_modifier.py:132: Getting SW15 footprint position: (167640000, 107632493)
+DEBUG: board_modifier.py:84: Searching for optional LD15 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD15 footprint position: (167640000, 102557493)
+DEBUG: key_placer.py:928: Placing additional elements for SW16
+DEBUG: board_modifier.py:132: Getting SW16 footprint position: (250000002, 107632493)
+DEBUG: board_modifier.py:84: Searching for optional LD16 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD16 footprint position: (250000002, 102557493)
+DEBUG: key_placer.py:928: Placing additional elements for SW17
+DEBUG: board_modifier.py:132: Getting SW17 footprint position: (104775000, 110489990)
+DEBUG: board_modifier.py:84: Searching for optional LD17 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD17 footprint position: (104775000, 105414990)
+DEBUG: key_placer.py:928: Placing additional elements for SW18
+DEBUG: board_modifier.py:132: Getting SW18 footprint position: (312865002, 110489990)
+DEBUG: board_modifier.py:84: Searching for optional LD18 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD18 footprint position: (312865002, 105414990)
 DEBUG: key_placer.py:928: Placing additional elements for SW33
 DEBUG: board_modifier.py:132: Getting SW33 footprint position: (181552150, 157691909)
 DEBUG: board_modifier.py:84: Searching for optional LD33 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
@@ -156,42 +213,44 @@ DEBUG: board_modifier.py:132: Getting SW31 footprint position: (161924984, 15049
 DEBUG: board_modifier.py:84: Searching for optional LD31 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LD31 footprint position: (163660736, 145726050)
 DEBUG: board_modifier.py:132: Getting LD31 footprint position: (163660736, 145726050)
-DEBUG: key_placer.py:928: Placing additional elements for SW30
-DEBUG: board_modifier.py:132: Getting SW30 footprint position: (333820002, 136207484)
-DEBUG: board_modifier.py:84: Searching for optional LD30 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD30 footprint position: (333820002, 131132484)
-DEBUG: key_placer.py:928: Placing additional elements for SW29
-DEBUG: board_modifier.py:132: Getting SW29 footprint position: (83820000, 136207484)
-DEBUG: board_modifier.py:84: Searching for optional LD29 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD29 footprint position: (83820000, 131132484)
-DEBUG: key_placer.py:928: Placing additional elements for SW28
-DEBUG: board_modifier.py:132: Getting SW28 footprint position: (312865002, 130492490)
-DEBUG: board_modifier.py:84: Searching for optional LD28 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD28 footprint position: (312865002, 125417490)
-DEBUG: key_placer.py:928: Placing additional elements for SW27
-DEBUG: board_modifier.py:132: Getting SW27 footprint position: (104775000, 130492490)
-DEBUG: board_modifier.py:84: Searching for optional LD27 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD27 footprint position: (104775000, 125417490)
-DEBUG: key_placer.py:928: Placing additional elements for SW26
-DEBUG: board_modifier.py:132: Getting SW26 footprint position: (250000002, 127634993)
-DEBUG: board_modifier.py:84: Searching for optional LD26 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD26 footprint position: (250000002, 122559993)
 DEBUG: key_placer.py:928: Placing additional elements for SW25
 DEBUG: board_modifier.py:132: Getting SW25 footprint position: (167640000, 127634993)
 DEBUG: board_modifier.py:84: Searching for optional LD25 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LD25 footprint position: (167640000, 122559993)
-DEBUG: key_placer.py:928: Placing additional elements for SW24
-DEBUG: board_modifier.py:132: Getting SW24 footprint position: (270955002, 123824996)
-DEBUG: board_modifier.py:84: Searching for optional LD24 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD24 footprint position: (270955002, 118749996)
-DEBUG: key_placer.py:928: Placing additional elements for SW23
-DEBUG: board_modifier.py:132: Getting SW23 footprint position: (146685000, 123824996)
-DEBUG: board_modifier.py:84: Searching for optional LD23 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD23 footprint position: (146685000, 118749996)
 DEBUG: key_placer.py:928: Placing additional elements for SW22
 DEBUG: board_modifier.py:132: Getting SW22 footprint position: (291910002, 120015000)
 DEBUG: board_modifier.py:84: Searching for optional LD22 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LD22 footprint position: (291910002, 114940000)
+DEBUG: key_placer.py:928: Placing additional elements for SW19
+DEBUG: board_modifier.py:132: Getting SW19 footprint position: (83820000, 116204984)
+DEBUG: board_modifier.py:84: Searching for optional LD19 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD19 footprint position: (83820000, 111129984)
+DEBUG: key_placer.py:928: Placing additional elements for SW35
+DEBUG: board_modifier.py:132: Getting SW35 footprint position: (167241771, 174729979)
+DEBUG: board_modifier.py:84: Searching for optional LD35 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD35 footprint position: (168977523, 169961039)
+DEBUG: board_modifier.py:132: Getting LD35 footprint position: (168977523, 169961039)
+DEBUG: key_placer.py:928: Placing additional elements for SW28
+DEBUG: board_modifier.py:132: Getting SW28 footprint position: (312865002, 130492490)
+DEBUG: board_modifier.py:84: Searching for optional LD28 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD28 footprint position: (312865002, 125417490)
+DEBUG: key_placer.py:928: Placing additional elements for SW36
+DEBUG: board_modifier.py:132: Getting SW36 footprint position: (250398210, 174729979)
+DEBUG: board_modifier.py:84: Searching for optional LD36 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD36 footprint position: (248662458, 169961039)
+DEBUG: board_modifier.py:132: Getting LD36 footprint position: (248662458, 169961039)
+DEBUG: key_placer.py:928: Placing additional elements for SW29
+DEBUG: board_modifier.py:132: Getting SW29 footprint position: (83820000, 136207484)
+DEBUG: board_modifier.py:84: Searching for optional LD29 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD29 footprint position: (83820000, 131132484)
+DEBUG: key_placer.py:928: Placing additional elements for SW24
+DEBUG: board_modifier.py:132: Getting SW24 footprint position: (270955002, 123824996)
+DEBUG: board_modifier.py:84: Searching for optional LD24 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD24 footprint position: (270955002, 118749996)
+DEBUG: key_placer.py:928: Placing additional elements for SW27
+DEBUG: board_modifier.py:132: Getting SW27 footprint position: (104775000, 130492490)
+DEBUG: board_modifier.py:84: Searching for optional LD27 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD27 footprint position: (104775000, 125417490)
 DEBUG: key_placer.py:928: Placing additional elements for SW21
 DEBUG: board_modifier.py:132: Getting SW21 footprint position: (125730000, 120015000)
 DEBUG: board_modifier.py:84: Searching for optional LD21 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
@@ -200,79 +259,20 @@ DEBUG: key_placer.py:928: Placing additional elements for SW20
 DEBUG: board_modifier.py:132: Getting SW20 footprint position: (333820002, 116204984)
 DEBUG: board_modifier.py:84: Searching for optional LD20 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LD20 footprint position: (333820002, 111129984)
-DEBUG: key_placer.py:928: Placing additional elements for SW19
-DEBUG: board_modifier.py:132: Getting SW19 footprint position: (83820000, 116204984)
-DEBUG: board_modifier.py:84: Searching for optional LD19 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD19 footprint position: (83820000, 111129984)
-DEBUG: key_placer.py:928: Placing additional elements for SW18
-DEBUG: board_modifier.py:132: Getting SW18 footprint position: (312865002, 110489990)
-DEBUG: board_modifier.py:84: Searching for optional LD18 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD18 footprint position: (312865002, 105414990)
-DEBUG: key_placer.py:928: Placing additional elements for SW17
-DEBUG: board_modifier.py:132: Getting SW17 footprint position: (104775000, 110489990)
-DEBUG: board_modifier.py:84: Searching for optional LD17 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD17 footprint position: (104775000, 105414990)
-DEBUG: key_placer.py:928: Placing additional elements for SW16
-DEBUG: board_modifier.py:132: Getting SW16 footprint position: (250000002, 107632493)
-DEBUG: board_modifier.py:84: Searching for optional LD16 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD16 footprint position: (250000002, 102557493)
-DEBUG: key_placer.py:928: Placing additional elements for SW15
-DEBUG: board_modifier.py:132: Getting SW15 footprint position: (167640000, 107632493)
-DEBUG: board_modifier.py:84: Searching for optional LD15 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD15 footprint position: (167640000, 102557493)
-DEBUG: key_placer.py:928: Placing additional elements for SW14
-DEBUG: board_modifier.py:132: Getting SW14 footprint position: (270955002, 103822496)
-DEBUG: board_modifier.py:84: Searching for optional LD14 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD14 footprint position: (270955002, 98747496)
-DEBUG: key_placer.py:928: Placing additional elements for SW13
-DEBUG: board_modifier.py:132: Getting SW13 footprint position: (146685000, 103822496)
-DEBUG: board_modifier.py:84: Searching for optional LD13 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD13 footprint position: (146685000, 98747496)
-DEBUG: key_placer.py:928: Placing additional elements for SW12
-DEBUG: board_modifier.py:132: Getting SW12 footprint position: (291910002, 100012500)
-DEBUG: board_modifier.py:84: Searching for optional LD12 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD12 footprint position: (291910002, 94937500)
-DEBUG: key_placer.py:928: Placing additional elements for SW11
-DEBUG: board_modifier.py:132: Getting SW11 footprint position: (125730000, 100012500)
-DEBUG: board_modifier.py:84: Searching for optional LD11 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD11 footprint position: (125730000, 94937500)
-DEBUG: key_placer.py:928: Placing additional elements for SW10
-DEBUG: board_modifier.py:132: Getting SW10 footprint position: (333820002, 96202484)
-DEBUG: board_modifier.py:84: Searching for optional LD10 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD10 footprint position: (333820002, 91127484)
-DEBUG: key_placer.py:928: Placing additional elements for SW9
-DEBUG: board_modifier.py:132: Getting SW9 footprint position: (83820000, 96202484)
-DEBUG: board_modifier.py:84: Searching for optional LD9 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD9 footprint position: (83820000, 91127484)
-DEBUG: key_placer.py:928: Placing additional elements for SW8
-DEBUG: board_modifier.py:132: Getting SW8 footprint position: (312865002, 90487490)
-DEBUG: board_modifier.py:84: Searching for optional LD8 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD8 footprint position: (312865002, 85412490)
-DEBUG: key_placer.py:928: Placing additional elements for SW7
-DEBUG: board_modifier.py:132: Getting SW7 footprint position: (104775000, 90487490)
-DEBUG: board_modifier.py:84: Searching for optional LD7 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD7 footprint position: (104775000, 85412490)
-DEBUG: key_placer.py:928: Placing additional elements for SW6
-DEBUG: board_modifier.py:132: Getting SW6 footprint position: (250000002, 87629993)
-DEBUG: board_modifier.py:84: Searching for optional LD6 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD6 footprint position: (250000002, 82554993)
-DEBUG: key_placer.py:928: Placing additional elements for SW5
-DEBUG: board_modifier.py:132: Getting SW5 footprint position: (167640000, 87629993)
-DEBUG: board_modifier.py:84: Searching for optional LD5 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD5 footprint position: (167640000, 82554993)
-DEBUG: key_placer.py:928: Placing additional elements for SW4
-DEBUG: board_modifier.py:132: Getting SW4 footprint position: (270955002, 83819996)
-DEBUG: board_modifier.py:84: Searching for optional LD4 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD4 footprint position: (270955002, 78744996)
-DEBUG: key_placer.py:928: Placing additional elements for SW3
-DEBUG: board_modifier.py:132: Getting SW3 footprint position: (146685000, 83819996)
-DEBUG: board_modifier.py:84: Searching for optional LD3 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD3 footprint position: (146685000, 78744996)
-DEBUG: key_placer.py:928: Placing additional elements for SW2
-DEBUG: board_modifier.py:132: Getting SW2 footprint position: (291910002, 80010000)
-DEBUG: board_modifier.py:84: Searching for optional LD2 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD2 footprint position: (291910002, 74935000)
-DEBUG: key_placer.py:928: Placing additional elements for SW1
-DEBUG: board_modifier.py:132: Getting SW1 footprint position: (125730000, 80010000)
-DEBUG: board_modifier.py:84: Searching for optional LD1 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LD1 footprint position: (125730000, 74935000)
+DEBUG: key_placer.py:928: Placing additional elements for SW23
+DEBUG: board_modifier.py:132: Getting SW23 footprint position: (146685000, 123824996)
+DEBUG: board_modifier.py:84: Searching for optional LD23 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD23 footprint position: (146685000, 118749996)
+DEBUG: key_placer.py:928: Placing additional elements for SW26
+DEBUG: board_modifier.py:132: Getting SW26 footprint position: (250000002, 127634993)
+DEBUG: board_modifier.py:84: Searching for optional LD26 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD26 footprint position: (250000002, 122559993)
+DEBUG: key_placer.py:928: Placing additional elements for SW30
+DEBUG: board_modifier.py:132: Getting SW30 footprint position: (333820002, 136207484)
+DEBUG: board_modifier.py:84: Searching for optional LD30 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD30 footprint position: (333820002, 131132484)
+DEBUG: key_placer.py:928: Placing additional elements for SW34
+DEBUG: board_modifier.py:132: Getting SW34 footprint position: (236087810, 157691909)
+DEBUG: board_modifier.py:84: Searching for optional LD34 footprint in /Users/alexeschanz/Documents/mSCKee/pcb/mSCKee.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LD34 footprint position: (234352058, 152922969)
+DEBUG: board_modifier.py:132: Getting LD34 footprint position: (234352058, 152922969)
