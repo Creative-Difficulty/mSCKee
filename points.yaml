@@ -23,19 +23,22 @@ matrix_pinky_bottom:
     asym: both
     colrow: pinky_bottom
     name: matrix_pinky_bottom
-    row_net: ROW3
+    column_net: COL0
+    row_net: ROW2
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone: &ref_1
       columns:
         pinky: &ref_0
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring: &ref_2
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -43,6 +46,7 @@ matrix_pinky_bottom:
           name: ring
         middle: &ref_3
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -50,6 +54,7 @@ matrix_pinky_bottom:
           name: middle
         index: &ref_4
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -57,6 +62,7 @@ matrix_pinky_bottom:
           name: index
         index_1: &ref_5
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -64,19 +70,19 @@ matrix_pinky_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
+          padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
           padding: 1.05U
       name: matrix
     col: *ref_0
@@ -112,9 +118,10 @@ matrix_pinky_home:
     asym: both
     colrow: pinky_home
     name: matrix_pinky_home
-    row_net: ROW2
+    column_net: COL0
+    row_net: ROW1
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone: *ref_1
     col: *ref_0
     row: home
@@ -149,9 +156,10 @@ matrix_pinky_number:
     asym: both
     colrow: pinky_number
     name: matrix_pinky_number
-    row_net: ROW1
+    column_net: COL0
+    row_net: ROW0
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone: *ref_1
     col: *ref_0
     row: number
@@ -186,9 +194,10 @@ matrix_ring_bottom:
     asym: both
     colrow: ring_bottom
     name: matrix_ring_bottom
-    row_net: ROW3
+    column_net: COL1
+    row_net: ROW2
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone: *ref_1
     col: *ref_2
     row: bottom
@@ -223,9 +232,10 @@ matrix_ring_home:
     asym: both
     colrow: ring_home
     name: matrix_ring_home
-    row_net: ROW2
+    column_net: COL1
+    row_net: ROW1
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone: *ref_1
     col: *ref_2
     row: home
@@ -260,9 +270,10 @@ matrix_ring_number:
     asym: both
     colrow: ring_number
     name: matrix_ring_number
-    row_net: ROW1
+    column_net: COL1
+    row_net: ROW0
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone: *ref_1
     col: *ref_2
     row: number
@@ -297,9 +308,10 @@ matrix_middle_bottom:
     asym: both
     colrow: middle_bottom
     name: matrix_middle_bottom
-    row_net: ROW3
+    column_net: COL2
+    row_net: ROW2
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone: *ref_1
     col: *ref_3
     row: bottom
@@ -334,9 +346,10 @@ matrix_middle_home:
     asym: both
     colrow: middle_home
     name: matrix_middle_home
-    row_net: ROW2
+    column_net: COL2
+    row_net: ROW1
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone: *ref_1
     col: *ref_3
     row: home
@@ -371,9 +384,10 @@ matrix_middle_number:
     asym: both
     colrow: middle_number
     name: matrix_middle_number
-    row_net: ROW1
+    column_net: COL2
+    row_net: ROW0
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone: *ref_1
     col: *ref_3
     row: number
@@ -408,9 +422,10 @@ matrix_index_bottom:
     asym: both
     colrow: index_bottom
     name: matrix_index_bottom
-    row_net: ROW3
+    column_net: COL3
+    row_net: ROW2
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone: *ref_1
     col: *ref_4
     row: bottom
@@ -445,9 +460,10 @@ matrix_index_home:
     asym: both
     colrow: index_home
     name: matrix_index_home
-    row_net: ROW2
+    column_net: COL3
+    row_net: ROW1
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone: *ref_1
     col: *ref_4
     row: home
@@ -482,9 +498,10 @@ matrix_index_number:
     asym: both
     colrow: index_number
     name: matrix_index_number
-    row_net: ROW1
+    column_net: COL3
+    row_net: ROW0
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone: *ref_1
     col: *ref_4
     row: number
@@ -519,9 +536,10 @@ matrix_index_1_bottom:
     asym: both
     colrow: index_1_bottom
     name: matrix_index_1_bottom
-    row_net: ROW3
+    column_net: COL4
+    row_net: ROW2
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone: *ref_1
     col: *ref_5
     row: bottom
@@ -556,9 +574,10 @@ matrix_index_1_home:
     asym: both
     colrow: index_1_home
     name: matrix_index_1_home
-    row_net: ROW2
+    column_net: COL4
+    row_net: ROW1
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone: *ref_1
     col: *ref_5
     row: home
@@ -593,9 +612,10 @@ matrix_index_1_number:
     asym: both
     colrow: index_1_number
     name: matrix_index_1_number
-    row_net: ROW1
+    column_net: COL4
+    row_net: ROW0
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone: *ref_1
     col: *ref_5
     row: number
@@ -608,11 +628,11 @@ matrix_index_1_number:
 thumb_tucky:
   x: 128.10500000000002
   'y': -114.28750000000001
-  r: -12
+  r: -20
   meta:
     stagger: 0
     spread: 19
-    splay: -5
+    splay: 0
     origin:
       - 0
       - 0
@@ -624,51 +644,45 @@ thumb_tucky:
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: tucky_thumb
     name: thumb_tucky
-    row_net: ROW4
+    column_net: COL5
+    row_net: ROW3
     mirror: &ref_6
-      row_net: ROW4R
+      row_net: ROW3R
     zone: &ref_9
       columns:
         tucky: &ref_7
           key:
+            column_net: COL5
             name: thumb_tucky
-            splay: -5
-            padding: 1.05U
           rows:
             thumb:
-              row_net: ROW4
+              row_net: ROW3
               mirror: *ref_6
           name: tucky
         reachy: &ref_10
           key:
-            shift:
-              - 0.4U
-              - 0.0U
-            spread: 1.05U
-            splay: -5
+            column_net: COL7
           rows:
             bottom:
-              row_net: ROW5
+              row_net: ROW6
               mirror: &ref_8
-                row_net: ROW5R
-              padding: 1.05U
+                row_net: ROW6R
               shift:
                 - '-0.3U'
                 - '-1.1U'
             top:
-              row_net: ROW6
+              row_net: ROW5
               mirror: &ref_11
-                row_net: ROW6R
-              padding: 1.05U
+                row_net: ROW5R
               shift:
                 - 0.4U
-                - 0U
+                - 0.1U
           name: reachy
       name: thumb
     col: *ref_7
@@ -680,13 +694,13 @@ thumb_tucky:
       - 0
       - 0
 thumb_reachy_bottom:
-  x: 136.0784666
-  'y': -136.8147155
-  r: -17
+  x: 133.4217844
+  'y': -138.5224964
+  r: -20
   meta:
     stagger: 0
-    spread: 20.0025
-    splay: -5
+    spread: 19
+    splay: 0
     origin:
       - 0
       - 0
@@ -698,13 +712,14 @@ thumb_reachy_bottom:
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: reachy_bottom
     name: thumb_reachy_bottom
-    row_net: ROW5
+    column_net: COL7
+    row_net: ROW6
     mirror: *ref_8
     zone: *ref_9
     col: *ref_10
@@ -716,31 +731,32 @@ thumb_reachy_bottom:
       - 0
       - 0
 thumb_reachy_top:
-  x: 149.2136738
-  'y': -119.914102
-  r: -17
+  x: 147.7321732
+  'y': -121.48441559999999
+  r: -20
   meta:
     stagger: 0
-    spread: 20.0025
-    splay: -5
+    spread: 19
+    splay: 0
     origin:
       - 0
       - 0
     orient: 0
     shift:
       - 7.620000000000001
-      - 0
+      - 1.9050000000000002
     rotate: 0
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: reachy_top
     name: thumb_reachy_top
-    row_net: ROW6
+    column_net: COL7
+    row_net: ROW5
     mirror: *ref_11
     zone: *ref_9
     col: *ref_10
@@ -776,19 +792,22 @@ mirror_matrix_pinky_bottom:
     asym: both
     colrow: mirror_pinky_bottom
     name: mirror_matrix_pinky_bottom
-    row_net: ROW3R
+    column_net: COL0
+    row_net: ROW2R
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -796,6 +815,7 @@ mirror_matrix_pinky_bottom:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -803,6 +823,7 @@ mirror_matrix_pinky_bottom:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -810,6 +831,7 @@ mirror_matrix_pinky_bottom:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -817,23 +839,24 @@ mirror_matrix_pinky_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL0
         splay: 0
         spread: 1.1U
       rows: {}
@@ -870,19 +893,22 @@ mirror_matrix_pinky_home:
     asym: both
     colrow: mirror_pinky_home
     name: mirror_matrix_pinky_home
-    row_net: ROW2R
+    column_net: COL0
+    row_net: ROW1R
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -890,6 +916,7 @@ mirror_matrix_pinky_home:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -897,6 +924,7 @@ mirror_matrix_pinky_home:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -904,6 +932,7 @@ mirror_matrix_pinky_home:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -911,23 +940,24 @@ mirror_matrix_pinky_home:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL0
         splay: 0
         spread: 1.1U
       rows: {}
@@ -964,19 +994,22 @@ mirror_matrix_pinky_number:
     asym: both
     colrow: mirror_pinky_number
     name: mirror_matrix_pinky_number
-    row_net: ROW1R
+    column_net: COL0
+    row_net: ROW0R
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -984,6 +1017,7 @@ mirror_matrix_pinky_number:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -991,6 +1025,7 @@ mirror_matrix_pinky_number:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -998,6 +1033,7 @@ mirror_matrix_pinky_number:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1005,23 +1041,24 @@ mirror_matrix_pinky_number:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL0
         splay: 0
         spread: 1.1U
       rows: {}
@@ -1058,19 +1095,22 @@ mirror_matrix_ring_bottom:
     asym: both
     colrow: mirror_ring_bottom
     name: mirror_matrix_ring_bottom
-    row_net: ROW3R
+    column_net: COL1
+    row_net: ROW2R
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1078,6 +1118,7 @@ mirror_matrix_ring_bottom:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1085,6 +1126,7 @@ mirror_matrix_ring_bottom:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1092,6 +1134,7 @@ mirror_matrix_ring_bottom:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1099,23 +1142,24 @@ mirror_matrix_ring_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL1
         stagger: 0.30U
         splay: 0
         spread: 1.1U
@@ -1153,19 +1197,22 @@ mirror_matrix_ring_home:
     asym: both
     colrow: mirror_ring_home
     name: mirror_matrix_ring_home
-    row_net: ROW2R
+    column_net: COL1
+    row_net: ROW1R
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1173,6 +1220,7 @@ mirror_matrix_ring_home:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1180,6 +1228,7 @@ mirror_matrix_ring_home:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1187,6 +1236,7 @@ mirror_matrix_ring_home:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1194,23 +1244,24 @@ mirror_matrix_ring_home:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL1
         stagger: 0.30U
         splay: 0
         spread: 1.1U
@@ -1248,19 +1299,22 @@ mirror_matrix_ring_number:
     asym: both
     colrow: mirror_ring_number
     name: mirror_matrix_ring_number
-    row_net: ROW1R
+    column_net: COL1
+    row_net: ROW0R
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1268,6 +1322,7 @@ mirror_matrix_ring_number:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1275,6 +1330,7 @@ mirror_matrix_ring_number:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1282,6 +1338,7 @@ mirror_matrix_ring_number:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1289,23 +1346,24 @@ mirror_matrix_ring_number:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL1
         stagger: 0.30U
         splay: 0
         spread: 1.1U
@@ -1343,19 +1401,22 @@ mirror_matrix_middle_bottom:
     asym: both
     colrow: mirror_middle_bottom
     name: mirror_matrix_middle_bottom
-    row_net: ROW3R
+    column_net: COL2
+    row_net: ROW2R
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1363,6 +1424,7 @@ mirror_matrix_middle_bottom:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1370,6 +1432,7 @@ mirror_matrix_middle_bottom:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1377,6 +1440,7 @@ mirror_matrix_middle_bottom:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1384,23 +1448,24 @@ mirror_matrix_middle_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL2
         stagger: 0.55U
         splay: 0
         spread: 1.1U
@@ -1438,19 +1503,22 @@ mirror_matrix_middle_home:
     asym: both
     colrow: mirror_middle_home
     name: mirror_matrix_middle_home
-    row_net: ROW2R
+    column_net: COL2
+    row_net: ROW1R
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1458,6 +1526,7 @@ mirror_matrix_middle_home:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1465,6 +1534,7 @@ mirror_matrix_middle_home:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1472,6 +1542,7 @@ mirror_matrix_middle_home:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1479,23 +1550,24 @@ mirror_matrix_middle_home:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL2
         stagger: 0.55U
         splay: 0
         spread: 1.1U
@@ -1533,19 +1605,22 @@ mirror_matrix_middle_number:
     asym: both
     colrow: mirror_middle_number
     name: mirror_matrix_middle_number
-    row_net: ROW1R
+    column_net: COL2
+    row_net: ROW0R
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1553,6 +1628,7 @@ mirror_matrix_middle_number:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1560,6 +1636,7 @@ mirror_matrix_middle_number:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1567,6 +1644,7 @@ mirror_matrix_middle_number:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1574,23 +1652,24 @@ mirror_matrix_middle_number:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL2
         stagger: 0.55U
         splay: 0
         spread: 1.1U
@@ -1628,19 +1707,22 @@ mirror_matrix_index_bottom:
     asym: both
     colrow: mirror_index_bottom
     name: mirror_matrix_index_bottom
-    row_net: ROW3R
+    column_net: COL3
+    row_net: ROW2R
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1648,6 +1730,7 @@ mirror_matrix_index_bottom:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1655,6 +1738,7 @@ mirror_matrix_index_bottom:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1662,6 +1746,7 @@ mirror_matrix_index_bottom:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1669,23 +1754,24 @@ mirror_matrix_index_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL3
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -1723,19 +1809,22 @@ mirror_matrix_index_home:
     asym: both
     colrow: mirror_index_home
     name: mirror_matrix_index_home
-    row_net: ROW2R
+    column_net: COL3
+    row_net: ROW1R
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1743,6 +1832,7 @@ mirror_matrix_index_home:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1750,6 +1840,7 @@ mirror_matrix_index_home:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1757,6 +1848,7 @@ mirror_matrix_index_home:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1764,23 +1856,24 @@ mirror_matrix_index_home:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL3
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -1818,19 +1911,22 @@ mirror_matrix_index_number:
     asym: both
     colrow: mirror_index_number
     name: mirror_matrix_index_number
-    row_net: ROW1R
+    column_net: COL3
+    row_net: ROW0R
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1838,6 +1934,7 @@ mirror_matrix_index_number:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1845,6 +1942,7 @@ mirror_matrix_index_number:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1852,6 +1950,7 @@ mirror_matrix_index_number:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1859,23 +1958,24 @@ mirror_matrix_index_number:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL3
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -1913,19 +2013,22 @@ mirror_matrix_index_1_bottom:
     asym: both
     colrow: mirror_index_1_bottom
     name: mirror_matrix_index_1_bottom
-    row_net: ROW3R
+    column_net: COL4
+    row_net: ROW2R
     mirror:
-      row_net: ROW3R
+      row_net: ROW2R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -1933,6 +2036,7 @@ mirror_matrix_index_1_bottom:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -1940,6 +2044,7 @@ mirror_matrix_index_1_bottom:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1947,6 +2052,7 @@ mirror_matrix_index_1_bottom:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -1954,23 +2060,24 @@ mirror_matrix_index_1_bottom:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL4
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -2008,19 +2115,22 @@ mirror_matrix_index_1_home:
     asym: both
     colrow: mirror_index_1_home
     name: mirror_matrix_index_1_home
-    row_net: ROW2R
+    column_net: COL4
+    row_net: ROW1R
     mirror:
-      row_net: ROW2R
+      row_net: ROW1R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -2028,6 +2138,7 @@ mirror_matrix_index_1_home:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -2035,6 +2146,7 @@ mirror_matrix_index_1_home:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -2042,6 +2154,7 @@ mirror_matrix_index_1_home:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -2049,23 +2162,24 @@ mirror_matrix_index_1_home:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL4
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -2103,19 +2217,22 @@ mirror_matrix_index_1_number:
     asym: both
     colrow: mirror_index_1_number
     name: mirror_matrix_index_1_number
-    row_net: ROW1R
+    column_net: COL4
+    row_net: ROW0R
     mirror:
-      row_net: ROW1R
+      row_net: ROW0R
     zone:
       columns:
         pinky:
           key:
+            column_net: COL0
             splay: 0
             spread: 1.1U
           rows: {}
           name: pinky
         ring:
           key:
+            column_net: COL1
             stagger: 0.30U
             splay: 0
             spread: 1.1U
@@ -2123,6 +2240,7 @@ mirror_matrix_index_1_number:
           name: ring
         middle:
           key:
+            column_net: COL2
             stagger: 0.55U
             splay: 0
             spread: 1.1U
@@ -2130,6 +2248,7 @@ mirror_matrix_index_1_number:
           name: middle
         index:
           key:
+            column_net: COL3
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -2137,6 +2256,7 @@ mirror_matrix_index_1_number:
           name: index
         index_1:
           key:
+            column_net: COL4
             stagger: '-0.20U'
             splay: 0
             spread: 1.1U
@@ -2144,23 +2264,24 @@ mirror_matrix_index_1_number:
           name: index_1
       rows:
         bottom:
-          row_net: ROW3
-          mirror:
-            row_net: ROW3R
-          padding: 1.05U
-        home:
           row_net: ROW2
           mirror:
             row_net: ROW2R
           padding: 1.05U
-        number:
+        home:
           row_net: ROW1
           mirror:
             row_net: ROW1R
           padding: 1.05U
+        number:
+          row_net: ROW0
+          mirror:
+            row_net: ROW0R
+          padding: 1.05U
       name: matrix
     col:
       key:
+        column_net: COL4
         stagger: '-0.20U'
         splay: 0
         spread: 1.1U
@@ -2176,11 +2297,11 @@ mirror_matrix_index_1_number:
 mirror_thumb_tucky:
   x: 221.89499999999998
   'y': -114.28750000000001
-  r: 12
+  r: 20
   meta:
     stagger: 0
     spread: 19
-    splay: -5
+    splay: 0
     origin:
       - 0
       - 0
@@ -2192,64 +2313,57 @@ mirror_thumb_tucky:
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: mirror_tucky_thumb
     name: mirror_thumb_tucky
-    row_net: ROW4R
+    column_net: COL5
+    row_net: ROW3R
     mirror:
-      row_net: ROW4R
+      row_net: ROW3R
     zone:
       columns:
         tucky:
           key:
+            column_net: COL5
             name: thumb_tucky
-            splay: -5
-            padding: 1.05U
           rows:
             thumb:
-              row_net: ROW4
+              row_net: ROW3
               mirror:
-                row_net: ROW4R
+                row_net: ROW3R
           name: tucky
         reachy:
           key:
-            shift:
-              - 0.4U
-              - 0.0U
-            spread: 1.05U
-            splay: -5
+            column_net: COL7
           rows:
             bottom:
-              row_net: ROW5
+              row_net: ROW6
               mirror:
-                row_net: ROW5R
-              padding: 1.05U
+                row_net: ROW6R
               shift:
                 - '-0.3U'
                 - '-1.1U'
             top:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
-              padding: 1.05U
+                row_net: ROW5R
               shift:
                 - 0.4U
-                - 0U
+                - 0.1U
           name: reachy
       name: thumb
     col:
       key:
+        column_net: COL5
         name: thumb_tucky
-        splay: -5
-        padding: 1.05U
       rows:
         thumb:
-          row_net: ROW4
+          row_net: ROW3
           mirror:
-            row_net: ROW4R
+            row_net: ROW3R
       name: tucky
     row: thumb
     mirrored: true
@@ -2259,13 +2373,13 @@ mirror_thumb_tucky:
       - 0
       - 0
 mirror_thumb_reachy_bottom:
-  x: 213.9215334
-  'y': -136.8147155
-  r: 17
+  x: 216.5782156
+  'y': -138.5224964
+  r: 20
   meta:
     stagger: 0
-    spread: 20.0025
-    splay: -5
+    spread: 19
+    splay: 0
     origin:
       - 0
       - 0
@@ -2277,78 +2391,66 @@ mirror_thumb_reachy_bottom:
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: mirror_reachy_bottom
     name: mirror_thumb_reachy_bottom
-    row_net: ROW5R
+    column_net: COL7
+    row_net: ROW6R
     mirror:
-      row_net: ROW5R
+      row_net: ROW6R
     zone:
       columns:
         tucky:
           key:
+            column_net: COL5
             name: thumb_tucky
-            splay: -5
-            padding: 1.05U
           rows:
             thumb:
-              row_net: ROW4
+              row_net: ROW3
               mirror:
-                row_net: ROW4R
+                row_net: ROW3R
           name: tucky
         reachy:
           key:
-            shift:
-              - 0.4U
-              - 0.0U
-            spread: 1.05U
-            splay: -5
+            column_net: COL7
           rows:
             bottom:
-              row_net: ROW5
+              row_net: ROW6
               mirror:
-                row_net: ROW5R
-              padding: 1.05U
+                row_net: ROW6R
               shift:
                 - '-0.3U'
                 - '-1.1U'
             top:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
-              padding: 1.05U
+                row_net: ROW5R
               shift:
                 - 0.4U
-                - 0U
+                - 0.1U
           name: reachy
       name: thumb
     col:
       key:
-        shift:
-          - 0.4U
-          - 0.0U
-        spread: 1.05U
-        splay: -5
+        column_net: COL7
       rows:
         bottom:
-          row_net: ROW5
+          row_net: ROW6
           mirror:
-            row_net: ROW5R
-          padding: 1.05U
+            row_net: ROW6R
           shift:
             - '-0.3U'
             - '-1.1U'
         top:
-          row_net: ROW6
+          row_net: ROW5
           mirror:
-            row_net: ROW6R
-          padding: 1.05U
+            row_net: ROW5R
           shift:
             - 0.4U
-            - 0U
+            - 0.1U
       name: reachy
     row: bottom
     mirrored: true
@@ -2358,96 +2460,84 @@ mirror_thumb_reachy_bottom:
       - 0
       - 0
 mirror_thumb_reachy_top:
-  x: 200.7863262
-  'y': -119.914102
-  r: 17
+  x: 202.2678268
+  'y': -121.48441559999999
+  r: 20
   meta:
     stagger: 0
-    spread: 20.0025
-    splay: -5
+    spread: 19
+    splay: 0
     origin:
       - 0
       - 0
     orient: 0
     shift:
       - 7.620000000000001
-      - 0
+      - 1.9050000000000002
     rotate: 0
     adjust: {}
     width: 18
     height: 18
-    padding: 20.0025
+    padding: 19
     autobind: 10
     skip: false
     asym: both
     colrow: mirror_reachy_top
     name: mirror_thumb_reachy_top
-    row_net: ROW6R
+    column_net: COL7
+    row_net: ROW5R
     mirror:
-      row_net: ROW6R
+      row_net: ROW5R
     zone:
       columns:
         tucky:
           key:
+            column_net: COL5
             name: thumb_tucky
-            splay: -5
-            padding: 1.05U
           rows:
             thumb:
-              row_net: ROW4
+              row_net: ROW3
               mirror:
-                row_net: ROW4R
+                row_net: ROW3R
           name: tucky
         reachy:
           key:
-            shift:
-              - 0.4U
-              - 0.0U
-            spread: 1.05U
-            splay: -5
+            column_net: COL7
           rows:
             bottom:
-              row_net: ROW5
+              row_net: ROW6
               mirror:
-                row_net: ROW5R
-              padding: 1.05U
+                row_net: ROW6R
               shift:
                 - '-0.3U'
                 - '-1.1U'
             top:
-              row_net: ROW6
+              row_net: ROW5
               mirror:
-                row_net: ROW6R
-              padding: 1.05U
+                row_net: ROW5R
               shift:
                 - 0.4U
-                - 0U
+                - 0.1U
           name: reachy
       name: thumb
     col:
       key:
-        shift:
-          - 0.4U
-          - 0.0U
-        spread: 1.05U
-        splay: -5
+        column_net: COL7
       rows:
         bottom:
-          row_net: ROW5
+          row_net: ROW6
           mirror:
-            row_net: ROW5R
-          padding: 1.05U
+            row_net: ROW6R
           shift:
             - '-0.3U'
             - '-1.1U'
         top:
-          row_net: ROW6
+          row_net: ROW5
           mirror:
-            row_net: ROW6R
-          padding: 1.05U
+            row_net: ROW5R
           shift:
             - 0.4U
-            - 0U
+            - 0.1U
       name: reachy
     row: top
     mirrored: true
