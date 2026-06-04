@@ -7256,7 +7256,7 @@
 		)
 		(uuid "a161b458-c3cb-444b-9213-edf623a20dc6")
 	)
-	(text "Make sure R3 and R4 are close to RP2040"
+	(text "Make sure R1 and R2 are close to RP2040"
 		(exclude_from_sim no)
 		(at 240.792 85.598 0)
 		(effects
@@ -7675,12 +7675,6 @@
 		(uuid "6bc7c5d7-041e-4ac2-8dbe-581f452585d5")
 	)
 	(junction
-		(at 124.46 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dba321c-205b-4ae3-be7c-fa61144e5994")
-	)
-	(junction
 		(at 88.9 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7757,6 +7751,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8caf80a6-7769-4ec4-b1e5-5ad3448b7366")
+	)
+	(junction
+		(at 124.46 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f66c016-39ed-463b-8c7d-6f9f49629f0e")
 	)
 	(junction
 		(at 367.03 57.15)
@@ -10280,16 +10280,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 209.55) (xy 124.46 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff4e193-045e-40ee-a7d0-70cdbef8a01c")
-	)
-	(wire
-		(pts
 			(xy 49.53 264.16) (xy 49.53 266.7)
 		)
 		(stroke
@@ -10927,6 +10917,16 @@
 			(type default)
 		)
 		(uuid "f8197230-499f-4cbd-89c8-bb50c9a71cc9")
+	)
+	(wire
+		(pts
+			(xy 104.14 209.55) (xy 124.46 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd8b6c7-766b-429d-bb75-51a64557b096")
 	)
 	(wire
 		(pts
@@ -13670,7 +13670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13756,7 +13756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13842,7 +13842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 178.7652 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13928,7 +13928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 215.5952 64.77 0)
 			(hide yes)
 			(show_name no)
