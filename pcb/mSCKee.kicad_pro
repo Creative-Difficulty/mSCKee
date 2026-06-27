@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.35,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.46
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -525,24 +525,6 @@
         "via_diameter": 0.25,
         "via_drill": 0.15,
         "wire_width": 6
-      },
-      {
-        "name": "+5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": ""
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "R_GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(112, 16, 90)",
-        "tuning_profile": "",
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -707,12 +689,7 @@
         "R_GND"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "+5V",
-        "pattern": "ROW0"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
