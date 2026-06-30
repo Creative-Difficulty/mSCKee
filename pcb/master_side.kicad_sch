@@ -17112,7 +17112,7 @@
 		(fields_autoplaced yes)
 		(uuid "518df32c-e127-447f-bfd1-1b59308d0ea6")
 		(property "Reference" "F1"
-			(at 284.48 116.8399 0)
+			(at 284.48 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17122,8 +17122,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 284.48 119.3799 0)
+		(property "Value" "500mA"
+			(at 284.48 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
