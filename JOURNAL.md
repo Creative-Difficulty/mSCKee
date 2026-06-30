@@ -275,4 +275,8 @@ About 40 minutes got lost due to no internet connection, I hope I can get those 
 
 ---Journals from this point on are NOT from fallout---
 
-RUNNING TOTAL: 37h 20m (including the 40min lost by lapse)
+## Entry 14: 2 hours
+Routed all the LEDs to the LED driver on the right side and routed the rest of all unconnected things on the switches, doides ad LEDs on the right half, except the Row/col wiring for the thumb cluster (TODO).
+![](./journal_imgs/1.png)
+
+RUNNING TOTAL: 39h 20m (including the 40min lost by lapse)
