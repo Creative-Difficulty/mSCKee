@@ -1,4 +1,4 @@
-# Split Keyboard with per-key backlighting — Journal (originally exported from Fallout, partially transferred from blueprint to fallout, all journals from blueprint and fallout are included)
+# Split Keyboard with per-key backlighting — Journal 
 
 ## Entry 1: 1 hour
 
@@ -276,12 +276,15 @@ About 40 minutes got lost due to no internet connection, I hope I can get those 
 ---Journals from this point on are NOT from fallout---
 
 ## Entry 14: 2 hours, 30.06.2026
-Routed all the LEDs to the LED driver on the right side and routed the rest of all unconnected things on the switches, doides ad LEDs on the right half, except the Row/col wiring for the thumb cluster (TODO).
+Routed most of the LEDs to the LED driver on the right side and routed the rest of all unconnected things on the switches, doides ad LEDs on the right half, except the Row/col wiring for the thumb cluster (TODO).
 ![](./journal_imgs/1.png)
 
 
 ## Entry 15: 2 hours, 01.07.2026
-Routed the thumb cluster, so the entire right hand matrix + LEDs is now finished. Rerouted a lot of the previous days' work to make it cleaner. TODO: Figure out power plane 3.3 and 5V separation and pours.
+Routed the thumb cluster so the entire right hand matrix is now finished, also routed all LEDs on the right side to the LED driver (which is actually a current sink lol). Rerouted a lot of the previous days' work to make it cleaner, after sleeping on it I realized that a lot of the routing could be redone in a much more elegant way.
+TODO: Figure out power plane 3.3 and 5V separation and pours.
+TODO: Fix trace and via width for power traces.
+
 ![](./journal_imgs/2.png)
 
 
