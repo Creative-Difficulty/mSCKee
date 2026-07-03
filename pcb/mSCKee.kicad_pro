@@ -525,6 +525,26 @@
         "via_diameter": 0.25,
         "via_drill": 0.15,
         "wire_width": 6
+      },
+      {
+        "name": "+3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "+5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -689,7 +709,16 @@
         "R_GND"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "+5V",
+        "pattern": "*5V*"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "*3V3*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
