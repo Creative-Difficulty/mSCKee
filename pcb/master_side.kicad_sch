@@ -7348,7 +7348,7 @@
 		)
 		(uuid "f930e758-3614-43e3-bdf8-24f5bb9f651b")
 	)
-	(text "same I2C adress as the LED driver on master side, \nbut using different I2C bus, so no conflict"
+	(text "same I2C adress as the LED driver on slave side, \nbut using different I2C bus, so no conflict"
 		(exclude_from_sim no)
 		(at 53.34 185.42 0)
 		(effects
