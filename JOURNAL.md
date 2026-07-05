@@ -274,6 +274,7 @@ About 40 minutes got lost due to no internet connection, I hope I can get those 
 - <https://lookout.hackclub.com/api/media/84248ee9-f5a4-41b3-87ac-e47bc816097e/video.mp4>
 
 ---Journals from this point on are NOT from fallout---
+NOTE: Dates are written as dd.mm.yyyy format from here on.
 
 ## Entry 14: 2 hours, 30.06.2026
 Routed most of the LEDs to the LED driver on the right side and routed the rest of all unconnected things on the switches, doides ad LEDs on the right half, except the Row/col wiring for the thumb cluster (TODO).
@@ -288,4 +289,30 @@ TODO: Fix trace and via width for power traces.
 ![](./journal_imgs/2.png)
 
 
-RUNNING TOTAL: 41h 20m (including the 40min lost by lapse)
+
+## Entry 16: 9 hours, 05.07.2026
+
+On the left side of the split: 
+Seperated 3.3V and 5V copper pours on the same layer: ![](./journal_imgs/3.png)
+
+Figured out how to use netclasses and set the 3.3V and 5V power traces to be 0.4mm wide and increased the via size for all traces (didn't retroactively apply them to all tho).
+
+Routed the entire right side of the split: 
+- MCP23017 (I2C IO expander communicating with the master side via I2C over RJ9 connector + wire)
+- PCA9956 (LED driver to drive 3 status LEDs + 18 (1 per key) backlighting LEDs)
+- NCP1117 (Voltage regulator, to power the 3.3V net, power comes in as 5V over RJ9)
+- OPT3001 (a second I2C light sensor, enables automatic, brightness-driven backlight brightness adjustments)
+
+Added the ground and split power plane pours from the left (master) side to the right side.
+
+On the right side, since kbplacer assigned LED footprints from top to bottom, not from left to right, even though I had corrected the designtors to make them sequential from left to right, the majority of LED pads were referencing the wrong nets.
+
+I spent a lot of time on fixing R_GND connections, as there was no net automatically generated and I had to manually find and reassign all ground connections (This was likely because i used a "Directive Label" in the schematic). Example of R_GND usage in the schematic: ![](./journal_imgs/4.png)
+
+TODO: Assign JLC part numbers
+TODO: Fix 300+ DRC errors and 200+ warnings
+
+Entire PCB (finished, apart from the TODOs): ![](./journal_imgs/5.png)
+
+
+RUNNING TOTAL: 50h 20m (including the 40min lost by lapse)

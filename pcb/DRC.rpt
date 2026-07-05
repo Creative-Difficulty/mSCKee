@@ -1,0 +1,1428 @@
+** Drc report for mSCKee.kicad_pcb **
+** Created on 2026-07-05T15:12:07 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 429 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 93.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(178.7600 mm, 115.8600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 99.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(196.0500 mm, 117.9750 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(187.4300 mm, 112.2900 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.9400 mm, 126.1600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 94.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(196.0625 mm, 116.0800 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(186.4200 mm, 112.3000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 94.9500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.6900 mm, 112.2900 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(185.2500 mm, 85.4100 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(190.9000 mm, 129.3800 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(189.9500 mm, 119.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(188.7500 mm, 85.6600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(185.8200 mm, 125.2000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(188.4400 mm, 112.7900 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 93.9500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.7000 mm, 128.1100 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(178.1950 mm, 104.0150 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(141.9900 mm, 92.7000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(177.8900 mm, 122.4600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.6000 mm, 129.3800 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(189.9600 mm, 115.8500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(179.7400 mm, 124.4600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 99.4500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.8100 mm, 125.1700 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(194.9350 mm, 133.6600 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(183.3600 mm, 122.5400 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(183.6800 mm, 111.6500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(183.8500 mm, 107.4250 mm): Via [/master_side/USB_D-] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(185.2000 mm, 107.9500 mm): Via [/master_side/USB_D-] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(188.4400 mm, 113.7500 mm): Via [+3V3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(189.0000 mm, 115.8500 mm): Via [+3V3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.7625 mm, 115.0125 mm): Via [+3V3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.6900 mm, 113.2500 mm): Via [+3V3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(187.4300 mm, 113.2500 mm): Via [+3V3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(98.8400 mm, 104.0700 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.4100 mm, 91.1700 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 97.9500 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.8300 mm, 102.9100 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.5500 mm, 116.6300 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.5500 mm, 117.9000 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.1625 mm, 115.9375 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(186.1700 mm, 115.0400 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(184.9625 mm, 121.0125 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(143.3800 mm, 97.0200 mm): Via [Net-(IC1-LED3)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(179.2400 mm, 145.2100 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(171.5900 mm, 154.0020 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(187.9400 mm, 123.8200 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(179.2400 mm, 143.7800 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(189.5100 mm, 126.5800 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(187.3700 mm, 122.4900 mm): Via [COL5] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(186.9000 mm, 122.7900 mm): Via [COL4] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(185.1500 mm, 123.2900 mm): Via [COL4] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.0300 mm, 116.6800 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.3400 mm, 102.7400 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.9700 mm, 118.5900 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(129.5900 mm, 101.3100 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(138.3400 mm, 100.1800 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(197.6250 mm, 117.9750 mm): Via [Net-(D20-A)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(130.0700 mm, 107.3200 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(124.5800 mm, 107.3000 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(120.3800 mm, 107.3500 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(134.1300 mm, 107.0100 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(135.6300 mm, 105.5200 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 98.4500 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(132.9300 mm, 107.8100 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 116.2500 mm): Via [I2C_D_R] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 116.6500 mm): Via [I2C_CLK_R] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9000 mm, 117.8500 mm): Via [STATUS1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 118.2500 mm): Via [STATUS2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 118.6500 mm): Via [BL_DIM_1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(194.9350 mm, 138.1600 mm): Via [BL_DIM_1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(193.3400 mm, 136.7100 mm): Via [BL_DIM_2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 119.0500 mm): Via [BL_DIM_2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(176.4350 mm, 120.0050 mm): Via [ROW0] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(176.3900 mm, 122.7900 mm): Via [ROW0] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(177.5700 mm, 126.1700 mm): Via [ROW0] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(172.7200 mm, 91.9500 mm): Via [ROW0] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 120.6500 mm): Via [ROW1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(176.7300 mm, 123.3800 mm): Via [ROW1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(178.2800 mm, 125.5700 mm): Via [ROW1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(170.5379 mm, 180.5269 mm): Via [ROW2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(173.5700 mm, 152.0600 mm): Via [ROW2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.9250 mm, 121.0500 mm): Via [ROW2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(162.4300 mm, 131.4700 mm): Via [ROW2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(173.5700 mm, 150.2500 mm): Via [ROW2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.7625 mm, 121.8875 mm): Via [COL0] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(173.7200 mm, 131.5600 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(110.7600 mm, 136.9000 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(156.5500 mm, 135.8600 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(178.4900 mm, 124.0400 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.4400 mm, 123.1000 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.1600 mm, 132.3400 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(175.2900 mm, 123.1300 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(106.7900 mm, 136.9000 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(162.9300 mm, 136.0100 mm): Via [COL1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(126.7700 mm, 117.5000 mm): Via [COL2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(128.6800 mm, 118.4400 mm): Via [COL2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(143.8000 mm, 112.6300 mm): Via [COL2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(175.6800 mm, 131.0300 mm): Via [COL2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(181.8300 mm, 123.4000 mm): Via [COL2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(161.9000 mm, 122.0100 mm): Via [COL3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(172.0500 mm, 118.7700 mm): Via [COL3] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(179.7400 mm, 126.1600 mm): Via [/master_side/XIN] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(183.4600 mm, 123.2900 mm): Via [/master_side/XIN] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(187.8000 mm, 121.0500 mm): Via [OE_ENABLE] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.1800 mm, 113.4000 mm): Via [/master_side/QSPI_SD2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(179.4650 mm, 104.0150 mm): Via [/master_side/QSPI_SD2] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(182.1625 mm, 115.0125 mm): Via [/master_side/QSPI_SD1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(180.6800 mm, 104.0500 mm): Via [/master_side/QSPI_SD1] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(103.9875 mm, 125.4175 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.9600 mm, 107.3700 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(115.6400 mm, 128.2600 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.9600 mm, 117.2800 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.5800 mm, 125.4000 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 101.9500 mm): Via [Net-(IC1-LED12)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(197.6375 mm, 116.0800 mm): Via [Net-(D19-A)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.6700 mm, 89.5700 mm): Via [Net-(IC1-LED2)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(166.8525 mm, 122.5600 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(141.2300 mm, 107.7300 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(142.3100 mm, 109.6400 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(138.8400 mm, 105.0500 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.6500 mm, 106.4500 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(145.8975 mm, 98.7475 mm): Via [Net-(IC1-LED8)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(151.0600 mm, 94.5900 mm): Via [Net-(IC1-LED4)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(121.0500 mm, 88.3800 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.7800 mm, 94.4500 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.3100 mm, 93.3800 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(125.0500 mm, 89.2300 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 95.9500 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(140.0600 mm, 108.9600 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 100.9500 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(128.7800 mm, 117.0900 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 100.9500 mm): Via [Net-(IC1-LED13)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(166.8525 mm, 102.5575 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(144.7000 mm, 101.9200 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(159.1900 mm, 101.3600 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.0700 mm, 116.2100 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(163.3100 mm, 166.5900 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.0500 mm, 121.0000 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.6644 mm, 98.4500 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(132.5800 mm, 105.3500 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(136.0800 mm, 107.9400 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(151.8100 mm, 132.4600 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(121.3500 mm, 94.4900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(123.3800 mm, 92.4400 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(139.4200 mm, 95.4500 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(100.1800 mm, 93.8900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(137.8800 mm, 93.7800 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(108.0800 mm, 93.9900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0500 mm)
+    Rule: board setup constraints; error
+    @(133.5300 mm, 91.6100 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1611 mm)
+    Rule: board setup constraints hole; error
+    @(142.6800 mm, 123.2600 mm): Track [Net-(IC1-LED13)] on F.Cu, length 11.1440 mm
+    @(136.0700 mm, 116.2100 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.1000 mm; actual 0.0254 mm)
+    Local override; error
+    @(185.3625 mm, 112.3125 mm): Track [Net-(U2-USB_DP)] on F.Cu, length 0.9228 mm
+    @(184.6900 mm, 112.2900 mm): Pad 2 [GND] of C2 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1850 mm)
+    Rule: board setup constraints hole; error
+    @(194.5000 mm, 94.9000 mm): Track [Net-(F2-Pad2)] on F.Cu, length 5.0100 mm
+    @(196.5100 mm, 98.6600 mm): NPTH pad of J2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 93.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(178.7600 mm, 115.8600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 99.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(196.0500 mm, 117.9750 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.4300 mm, 112.2900 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(181.9400 mm, 126.1600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 94.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(196.0625 mm, 116.0800 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.4200 mm, 112.3000 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 94.9500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.6900 mm, 112.2900 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.2500 mm, 85.4100 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(190.9000 mm, 129.3800 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.9500 mm, 119.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.7500 mm, 85.6600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.8200 mm, 125.2000 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(188.4400 mm, 112.7900 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 93.9500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(181.7000 mm, 128.1100 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(178.1950 mm, 104.0150 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(141.9900 mm, 92.7000 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(177.8900 mm, 122.4600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.6000 mm, 129.3800 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.9600 mm, 115.8500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(179.7400 mm, 124.4600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 99.4500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.8100 mm, 125.1700 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.9350 mm, 133.6600 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.3600 mm, 122.5400 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.6800 mm, 111.6500 mm): Via [GND] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.8500 mm, 107.4250 mm): Via [/master_side/USB_D-] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.2000 mm, 107.9500 mm): Via [/master_side/USB_D-] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass '+3V3'; error
+    @(188.4400 mm, 113.7500 mm): Via [+3V3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass '+3V3'; error
+    @(189.0000 mm, 115.8500 mm): Via [+3V3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass '+3V3'; error
+    @(181.7625 mm, 115.0125 mm): Via [+3V3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass '+3V3'; error
+    @(184.6900 mm, 113.2500 mm): Via [+3V3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass '+3V3'; error
+    @(187.4300 mm, 113.2500 mm): Via [+3V3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(98.8400 mm, 104.0700 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.4100 mm, 91.1700 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 97.9500 mm): Via [Net-(IC1-LED5)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.8300 mm, 102.9100 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.5500 mm, 116.6300 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.5500 mm, 117.9000 mm): Via [Net-(IC1-LED15)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.1625 mm, 115.9375 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.1700 mm, 115.0400 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(184.9625 mm, 121.0125 mm): Via [Net-(U2-VREG_VOUT)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(143.3800 mm, 97.0200 mm): Via [Net-(IC1-LED3)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(179.2400 mm, 145.2100 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(171.5900 mm, 154.0020 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.9400 mm, 123.8200 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(179.2400 mm, 143.7800 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(189.5100 mm, 126.5800 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.3700 mm, 122.4900 mm): Via [COL5] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(186.9000 mm, 122.7900 mm): Via [COL4] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(185.1500 mm, 123.2900 mm): Via [COL4] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.0300 mm, 116.6800 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.3400 mm, 102.7400 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.9700 mm, 118.5900 mm): Via [Net-(IC1-LED16)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(129.5900 mm, 101.3100 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(138.3400 mm, 100.1800 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.6250 mm, 117.9750 mm): Via [Net-(D20-A)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(130.0700 mm, 107.3200 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(124.5800 mm, 107.3000 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.3800 mm, 107.3500 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(134.1300 mm, 107.0100 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(135.6300 mm, 105.5200 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 98.4500 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(132.9300 mm, 107.8100 mm): Via [Net-(IC1-LED6)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 116.2500 mm): Via [I2C_D_R] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 116.6500 mm): Via [I2C_CLK_R] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9000 mm, 117.8500 mm): Via [STATUS1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 118.2500 mm): Via [STATUS2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 118.6500 mm): Via [BL_DIM_1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(194.9350 mm, 138.1600 mm): Via [BL_DIM_1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(193.3400 mm, 136.7100 mm): Via [BL_DIM_2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 119.0500 mm): Via [BL_DIM_2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.4350 mm, 120.0050 mm): Via [ROW0] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.3900 mm, 122.7900 mm): Via [ROW0] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(177.5700 mm, 126.1700 mm): Via [ROW0] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(172.7200 mm, 91.9500 mm): Via [ROW0] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 120.6500 mm): Via [ROW1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(176.7300 mm, 123.3800 mm): Via [ROW1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(178.2800 mm, 125.5700 mm): Via [ROW1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(170.5379 mm, 180.5269 mm): Via [ROW2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.5700 mm, 152.0600 mm): Via [ROW2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.9250 mm, 121.0500 mm): Via [ROW2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(162.4300 mm, 131.4700 mm): Via [ROW2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.5700 mm, 150.2500 mm): Via [ROW2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(181.7625 mm, 121.8875 mm): Via [COL0] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(173.7200 mm, 131.5600 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.7600 mm, 136.9000 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(156.5500 mm, 135.8600 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(178.4900 mm, 124.0400 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(181.4400 mm, 123.1000 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.1600 mm, 132.3400 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(175.2900 mm, 123.1300 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.7900 mm, 136.9000 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(162.9300 mm, 136.0100 mm): Via [COL1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(126.7700 mm, 117.5000 mm): Via [COL2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(128.6800 mm, 118.4400 mm): Via [COL2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(143.8000 mm, 112.6300 mm): Via [COL2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(175.6800 mm, 131.0300 mm): Via [COL2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(181.8300 mm, 123.4000 mm): Via [COL2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(161.9000 mm, 122.0100 mm): Via [COL3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(172.0500 mm, 118.7700 mm): Via [COL3] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(179.7400 mm, 126.1600 mm): Via [/master_side/XIN] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(183.4600 mm, 123.2900 mm): Via [/master_side/XIN] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(187.8000 mm, 121.0500 mm): Via [OE_ENABLE] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.1800 mm, 113.4000 mm): Via [/master_side/QSPI_SD2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(179.4650 mm, 104.0150 mm): Via [/master_side/QSPI_SD2] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(182.1625 mm, 115.0125 mm): Via [/master_side/QSPI_SD1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(180.6800 mm, 104.0500 mm): Via [/master_side/QSPI_SD1] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.9875 mm, 125.4175 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.9600 mm, 107.3700 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.6400 mm, 128.2600 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.9600 mm, 117.2800 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.5800 mm, 125.4000 mm): Via [Net-(IC1-LED11)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 101.9500 mm): Via [Net-(IC1-LED12)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(197.6375 mm, 116.0800 mm): Via [Net-(D19-A)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.6700 mm, 89.5700 mm): Via [Net-(IC1-LED2)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(166.8525 mm, 122.5600 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(141.2300 mm, 107.7300 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(142.3100 mm, 109.6400 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(138.8400 mm, 105.0500 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.6500 mm, 106.4500 mm): Via [Net-(IC1-LED14)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(145.8975 mm, 98.7475 mm): Via [Net-(IC1-LED8)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(151.0600 mm, 94.5900 mm): Via [Net-(IC1-LED4)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(121.0500 mm, 88.3800 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.7800 mm, 94.4500 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.3100 mm, 93.3800 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(125.0500 mm, 89.2300 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 95.9500 mm): Via [Net-(IC1-LED1)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(140.0600 mm, 108.9600 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 100.9500 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(128.7800 mm, 117.0900 mm): Via [Net-(IC1-LED10)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 100.9500 mm): Via [Net-(IC1-LED13)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(166.8525 mm, 102.5575 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(144.7000 mm, 101.9200 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(159.1900 mm, 101.3600 mm): Via [Net-(IC1-LED9)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.0700 mm, 116.2100 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(163.3100 mm, 166.5900 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.0500 mm, 121.0000 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.6644 mm, 98.4500 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(132.5800 mm, 105.3500 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(136.0800 mm, 107.9400 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(151.8100 mm, 132.4600 mm): Via [Net-(IC1-LED17)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(121.3500 mm, 94.4900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(123.3800 mm, 92.4400 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(139.4200 mm, 95.4500 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(100.1800 mm, 93.8900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.8800 mm, 93.7800 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0800 mm, 93.9900 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(133.5300 mm, 91.6100 mm): Via [Net-(IC1-LED0)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(276.0100 mm, 99.7600 mm): Via [unconnected-(C25-Pad2)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(197.6650 mm, 122.5800 mm): Via [I2C_D] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(198.5865 mm, 149.8672 mm): Segment on Edge.Cuts
+    @(198.0850 mm, 135.8100 mm): Segment of OSW3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(198.5865 mm, 149.8672 mm): Segment on Edge.Cuts
+    @(199.3850 mm, 134.5100 mm): Segment of OSW3 on F.Silkscreen
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(181.1375 mm, 99.6250 mm): Via [+3V3] on F.Cu - B.Cu
+    @(181.1375 mm, 99.6250 mm): Via [+3V3] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+    @(135.9000 mm, 103.1200 mm): Via [Net-(IC1-LED7)] on F.Cu - B.Cu
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(83.8200 mm, 109.7000 mm): Reference field of LD6
+    @(84.6200 mm, 110.3950 mm): Segment of LD6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(104.7750 mm, 103.9850 mm): Reference field of LD7
+    @(105.5750 mm, 104.6800 mm): Segment of LD7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(83.8200 mm, 89.6975 mm): Reference field of LD1
+    @(84.6200 mm, 90.3925 mm): Segment of LD1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(126.5300 mm, 94.2025 mm): Segment of LD8 on F.Silkscreen
+    @(125.7300 mm, 93.5075 mm): Reference field of LD8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(104.7750 mm, 123.9875 mm): Reference field of LD12
+    @(105.5750 mm, 124.6825 mm): Segment of LD12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(104.7750 mm, 123.9875 mm): Reference field of LD12
+    @(103.2900 mm, 124.6825 mm): Segment of LD12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(125.7300 mm, 113.5100 mm): Reference field of LD13
+    @(124.2450 mm, 114.2050 mm): Segment of LD13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(125.7300 mm, 113.5100 mm): Reference field of LD13
+    @(126.5300 mm, 114.2050 mm): Segment of LD13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(104.7750 mm, 83.9825 mm): Reference field of LD2
+    @(105.5750 mm, 84.6775 mm): Segment of LD2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(83.8200 mm, 129.7025 mm): Reference field of LD11
+    @(82.3350 mm, 130.3975 mm): Segment of LD11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(83.8200 mm, 129.7025 mm): Reference field of LD11
+    @(84.6200 mm, 130.3975 mm): Segment of LD11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0214 mm)
+    Rule: board setup constraints silk; warning
+    @(189.7700 mm, 87.7200 mm): Reference field of F1
+    @(188.6500 mm, 87.0500 mm): Reference field of R8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(183.7770 mm, 151.5792 mm): Reference field of LD17
+    @(184.2910 mm, 152.5059 mm): Segment of LD17 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(183.7770 mm, 151.5792 mm): Reference field of LD17
+    @(182.1438 mm, 151.7244 mm): Segment of LD17 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(147.4850 mm, 118.0150 mm): Segment of LD14 on F.Silkscreen
+    @(146.6850 mm, 117.3200 mm): Reference field of LD14
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1401 mm)
+    Rule: board setup constraints silk; warning
+    @(145.2000 mm, 118.0150 mm): Segment of LD14 on F.Silkscreen
+    @(146.6850 mm, 117.3200 mm): Reference field of LD14
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(169.4666 mm, 168.6173 mm): Reference field of LD18
+    @(167.8335 mm, 168.7625 mm): Segment of LD18 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(169.4666 mm, 168.6173 mm): Reference field of LD18
+    @(169.9807 mm, 169.5440 mm): Segment of LD18 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(125.7300 mm, 73.5050 mm): Reference field of LD3
+    @(126.5300 mm, 74.2000 mm): Segment of LD3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(146.6850 mm, 77.3150 mm): Reference field of LD4
+    @(147.4850 mm, 78.0100 mm): Segment of LD4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(146.6850 mm, 97.3175 mm): Reference field of LD9
+    @(147.4850 mm, 98.0125 mm): Segment of LD9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6400 mm, 81.1250 mm): Reference field of LD5
+    @(168.4400 mm, 81.8200 mm): Segment of LD5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6400 mm, 101.1275 mm): Reference field of LD10
+    @(166.1550 mm, 101.8225 mm): Segment of LD10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6400 mm, 101.1275 mm): Reference field of LD10
+    @(168.4400 mm, 101.8225 mm): Segment of LD10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(269.4700 mm, 118.0150 mm): Segment of LD30 on F.Silkscreen
+    @(270.9550 mm, 117.3200 mm): Reference field of LD30
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(270.9550 mm, 117.3200 mm): Reference field of LD30
+    @(271.7550 mm, 118.0150 mm): Segment of LD30 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(270.9550 mm, 77.3150 mm): Reference field of LD20
+    @(269.4700 mm, 78.0100 mm): Segment of LD20 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(271.7550 mm, 78.0100 mm): Segment of LD20 on F.Silkscreen
+    @(270.9550 mm, 77.3150 mm): Reference field of LD20
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(270.9550 mm, 97.3175 mm): Reference field of LD25
+    @(269.4700 mm, 98.0125 mm): Segment of LD25 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(271.7550 mm, 98.0125 mm): Segment of LD25 on F.Silkscreen
+    @(270.9550 mm, 97.3175 mm): Reference field of LD25
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(290.4250 mm, 114.2050 mm): Segment of LD31 on F.Silkscreen
+    @(291.9100 mm, 113.5100 mm): Reference field of LD31
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(292.7100 mm, 114.2050 mm): Segment of LD31 on F.Silkscreen
+    @(291.9100 mm, 113.5100 mm): Reference field of LD31
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(292.7100 mm, 74.2000 mm): Segment of LD21 on F.Silkscreen
+    @(291.9100 mm, 73.5050 mm): Reference field of LD21
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(290.4250 mm, 74.2000 mm): Segment of LD21 on F.Silkscreen
+    @(291.9100 mm, 73.5050 mm): Reference field of LD21
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(292.7100 mm, 94.2025 mm): Segment of LD26 on F.Silkscreen
+    @(291.9100 mm, 93.5075 mm): Reference field of LD26
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(290.4250 mm, 94.2025 mm): Segment of LD26 on F.Silkscreen
+    @(291.9100 mm, 93.5075 mm): Reference field of LD26
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(312.8650 mm, 123.9875 mm): Reference field of LD32
+    @(311.3800 mm, 124.6825 mm): Segment of LD32 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(312.8650 mm, 123.9875 mm): Reference field of LD32
+    @(313.6650 mm, 124.6825 mm): Segment of LD32 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(311.3800 mm, 104.6800 mm): Segment of LD27 on F.Silkscreen
+    @(312.8650 mm, 103.9850 mm): Reference field of LD27
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(312.8650 mm, 103.9850 mm): Reference field of LD27
+    @(313.6650 mm, 104.6800 mm): Segment of LD27 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 109.7000 mm): Reference field of LD28
+    @(334.6200 mm, 110.3950 mm): Segment of LD28 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 109.7000 mm): Reference field of LD28
+    @(332.3350 mm, 110.3950 mm): Segment of LD28 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 129.7025 mm): Reference field of LD33
+    @(332.3350 mm, 130.3975 mm): Segment of LD33 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 129.7025 mm): Reference field of LD33
+    @(334.6200 mm, 130.3975 mm): Segment of LD33 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 89.6975 mm): Reference field of LD23
+    @(334.6200 mm, 90.3925 mm): Segment of LD23 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(333.8200 mm, 89.6975 mm): Reference field of LD23
+    @(332.3350 mm, 90.3925 mm): Segment of LD23 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(311.3800 mm, 84.6775 mm): Segment of LD22 on F.Silkscreen
+    @(312.8650 mm, 83.9825 mm): Reference field of LD22
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(312.8650 mm, 83.9825 mm): Reference field of LD22
+    @(313.6650 mm, 84.6775 mm): Segment of LD22 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(250.8000 mm, 121.8250 mm): Segment of LD29 on F.Silkscreen
+    @(250.0000 mm, 121.1300 mm): Reference field of LD29
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(248.5150 mm, 121.8250 mm): Segment of LD29 on F.Silkscreen
+    @(250.0000 mm, 121.1300 mm): Reference field of LD29
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(233.8630 mm, 151.5792 mm): Reference field of LD34
+    @(232.7052 mm, 152.7402 mm): Segment of LD34 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(234.8524 mm, 151.9587 mm): Segment of LD34 on F.Silkscreen
+    @(233.8630 mm, 151.5792 mm): Reference field of LD34
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(253.4902 mm, 144.3823 mm): Reference field of LD35
+    @(252.3324 mm, 145.5433 mm): Segment of LD35 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(253.4902 mm, 144.3823 mm): Reference field of LD35
+    @(254.4796 mm, 144.7618 mm): Segment of LD35 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(248.1734 mm, 168.6173 mm): Reference field of LD36
+    @(247.0156 mm, 169.7783 mm): Segment of LD36 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(249.1628 mm, 168.9967 mm): Segment of LD36 on F.Silkscreen
+    @(248.1734 mm, 168.6173 mm): Reference field of LD36
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(222.0255 mm, 115.7572 mm): Footprint text of U6 (*)
+    @(222.0255 mm, 115.7572 mm): Footprint text of U6 (*)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1098 mm)
+    Rule: board setup constraints silk; warning
+    @(230.3627 mm, 117.2573 mm): Reference field of R17
+    @(231.0299 mm, 116.8073 mm): Segment of R17 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(248.5150 mm, 101.8225 mm): Segment of LD24 on F.Silkscreen
+    @(250.0000 mm, 101.1275 mm): Reference field of LD24
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(250.0000 mm, 101.1275 mm): Reference field of LD24
+    @(250.8000 mm, 101.8225 mm): Segment of LD24 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(250.8000 mm, 81.8200 mm): Segment of LD19 on F.Silkscreen
+    @(250.0000 mm, 81.1250 mm): Reference field of LD19
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(248.5150 mm, 81.8200 mm): Segment of LD19 on F.Silkscreen
+    @(250.0000 mm, 81.1250 mm): Reference field of LD19
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0963 mm)
+    Rule: board setup constraints silk; warning
+    @(221.6725 mm, 127.4200 mm): Reference field of D41
+    @(220.8725 mm, 126.7250 mm): Segment of D41 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0733 mm)
+    Rule: board setup constraints silk; warning
+    @(221.6725 mm, 127.4200 mm): Reference field of D41
+    @(223.1575 mm, 127.8450 mm): Segment of D40 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0963 mm)
+    Rule: board setup constraints silk; warning
+    @(221.6725 mm, 130.0100 mm): Reference field of D40
+    @(220.8725 mm, 129.3150 mm): Segment of D40 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0881 mm)
+    Rule: board setup constraints silk; warning
+    @(221.6725 mm, 127.4200 mm): Reference field of D41
+    @(223.1575 mm, 129.3150 mm): Segment of D40 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0628 mm)
+    Rule: board setup constraints silk; warning
+    @(221.7100 mm, 132.9600 mm): Reference field of D39
+    @(220.9100 mm, 132.2650 mm): Segment of D39 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0978 mm)
+    Rule: board setup constraints silk; warning
+    @(222.8600 mm, 124.6980 mm): Reference field of U7
+    @(223.1575 mm, 125.2550 mm): Segment of D41 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0649 mm)
+    Rule: board setup constraints silk; warning
+    @(223.1575 mm, 126.7250 mm): Segment of D41 on F.Silkscreen
+    @(222.8600 mm, 124.6980 mm): Reference field of U7
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1061 mm)
+    Rule: board setup constraints silk; warning
+    @(224.9300 mm, 122.2300 mm): Reference field of C24
+    @(225.3350 mm, 123.3400 mm): Circle of U7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1164 mm)
+    Rule: board setup constraints silk; warning
+    @(224.9300 mm, 122.2300 mm): Reference field of C24
+    @(224.4000 mm, 121.5910 mm): Segment of U7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6400 mm, 121.1300 mm): Reference field of LD15
+    @(166.1550 mm, 121.8250 mm): Segment of LD15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6400 mm, 121.1300 mm): Reference field of LD15
+    @(168.4400 mm, 121.8250 mm): Segment of LD15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1249 mm)
+    Rule: board setup constraints silk; warning
+    @(183.6250 mm, 126.9500 mm): Reference field of R10
+    @(184.8750 mm, 127.3500 mm): Reference field of C4
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1399 mm)
+    Rule: board setup constraints silk; warning
+    @(184.3300 mm, 110.7164 mm): Segment of R1 on F.Silkscreen
+    @(183.6250 mm, 110.1500 mm): Reference field of C8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1291 mm)
+    Rule: board setup constraints silk; warning
+    @(189.3722 mm, 116.2100 mm): Segment of C5 on F.Silkscreen
+    @(189.4250 mm, 117.0000 mm): Reference field of C5
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0678 mm)
+    Rule: board setup constraints silk; warning
+    @(183.6250 mm, 126.9500 mm): Reference field of R10
+    @(178.7800 mm, 127.0200 mm): Segment of Y1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1338 mm)
+    Rule: board setup constraints silk; warning
+    @(184.8750 mm, 127.3500 mm): Reference field of C4
+    @(186.1500 mm, 127.3250 mm): Reference field of C9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(226.4200 mm, 114.5800 mm): Reference field of U6
+    @(226.4200 mm, 114.5800 mm): Pad 29 [R_GND] of U6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(224.9300 mm, 122.2300 mm): Reference field of C24
+    @(224.3950 mm, 123.3400 mm): Pad 1 [+3V3_R] of U7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(224.9300 mm, 122.2300 mm): Reference field of C24
+    @(224.3950 mm, 122.6900 mm): Pad 2 [R_GND] of U7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(224.9300 mm, 122.2300 mm): Reference field of C24
+    @(224.3950 mm, 122.0400 mm): Pad 3 [R_GND] of U7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2225 mm, 115.8500 mm): Polygon of U2 on F.Silkscreen
+    @(179.7200 mm, 115.8600 mm): Pad 1 [+3V3] of C3 on F.Cu
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1453 mm)
+    Rule: board setup constraints silk; warning
+    @(192.2200 mm, 115.5000 mm): Reference field of R15
+    @(192.1800 mm, 116.7000 mm): Reference field of R16
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0485 mm)
+    Rule: board setup constraints silk; warning
+    @(131.4100 mm, 95.6100 mm): Reference field of R14
+    @(130.5100 mm, 96.0100 mm): Reference field of C19
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1098 mm)
+    Rule: board setup constraints silk; warning
+    @(131.2564 mm, 94.8200 mm): Segment of R14 on B.Silkscreen
+    @(131.4100 mm, 95.6100 mm): Reference field of R14
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(139.6740 mm, 91.5370 mm): Footprint text of IC1 (*)
+    @(139.6740 mm, 91.5370 mm): Footprint text of IC1 (*)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0892 mm)
+    Rule: board setup constraints silk; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(277.2042 mm, 100.6595 mm): Polygon of IC2 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0234 mm)
+    Rule: board setup constraints silk; warning
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+    @(284.9400 mm, 94.4400 mm): Reference field of R18
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0234 mm)
+    Rule: board setup constraints silk; warning
+    @(284.9400 mm, 94.4400 mm): Reference field of R18
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0804 mm)
+    Rule: board setup constraints silk; warning
+    @(278.9408 mm, 96.3730 mm): Segment of IC2 on B.Silkscreen
+    @(280.7700 mm, 95.0700 mm): Reference field of R19
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1098 mm)
+    Rule: board setup constraints silk; warning
+    @(279.9800 mm, 95.2236 mm): Segment of R19 on B.Silkscreen
+    @(280.7700 mm, 95.0700 mm): Reference field of R19
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1105 mm)
+    Rule: board setup constraints silk; warning
+    @(285.0936 mm, 95.2300 mm): Segment of R18 on B.Silkscreen
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1105 mm)
+    Rule: board setup constraints silk; warning
+    @(285.0936 mm, 95.2300 mm): Segment of R18 on B.Silkscreen
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.5100 mm, 96.0100 mm): Reference field of C19
+    @(128.2700 mm, 94.9325 mm): PTH pad 2 [Net-(D11-A)] of SW8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5422 mm, 97.4500 mm): Reference field of IC1
+    @(136.5422 mm, 97.4500 mm): Pad EPAD [GND] of IC1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 99.8500 mm): Pad 32 [unconnected-(IC2-LED22-Pad32)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 99.3500 mm): Pad 33 [unconnected-(IC2-LED23-Pad33)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 100.8500 mm): Pad 30 [Net-(D39-K)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 100.3500 mm): Pad 31 [unconnected-(IC2-LED21-Pad31)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 101.8500 mm): Pad 28 [Net-(D41-K)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(277.6900 mm, 100.7100 mm): Reference field of C25
+    @(278.3900 mm, 101.3500 mm): Pad 29 [Net-(D40-K)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(281.2678 mm, 101.3500 mm): Reference field of IC2
+    @(281.2678 mm, 101.3500 mm): Pad EPAD [unconnected-(IC2-PadEPAD)] of IC2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+    @(284.4300 mm, 95.6100 mm): Pad 2 [Net-(IC2-REXT)] of R18 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(284.3996 mm, 95.4370 mm): Footprint text of IC2 (*)
+    @(284.4300 mm, 95.6100 mm): Pad 2 [Net-(IC2-REXT)] of R18 on B.Cu
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.5422 mm, 97.4500 mm): Pad EPAD [GND] of IC1 on B.Cu
+    @(133.6644 mm, 99.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.6750 mm, 123.2300 mm): Via [GND] on F.Cu - B.Cu
+    @(196.6700 mm, 123.2300 mm): Pad 7 [GND] of U4 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
