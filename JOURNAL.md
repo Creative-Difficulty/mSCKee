@@ -292,6 +292,8 @@ TODO: Fix trace and via width for power traces.
 
 ## Entry 16: 9 hours, 05.07.2026
 
+(I did this work over the course of a couple of days from 01.07.2026 to 05.07.2026)
+
 On the left side of the split: 
 Seperated 3.3V and 5V copper pours on the same layer: ![](./journal_imgs/3.png)
 
@@ -314,5 +316,8 @@ TODO: Fix 300+ DRC errors and 200+ warnings
 
 Entire PCB (finished, apart from the TODOs): ![](./journal_imgs/5.png)
 
+## Entry 17: 1 hour, 05.07.2026
 
-RUNNING TOTAL: 50h 20m (including the 40min lost by lapse)
+Fixed all DRC errors and most warnings. I discovered that the severity of violations can also be customized, and I set Silkscreen violations to ignore as I've heard the PCB fab will figure it out (JLC at least). I will probably fix them some time in the future, but if everything is correct, the board should be finished!
+
+RUNNING TOTAL: 51h 20m (including the 40min lost by lapse)
