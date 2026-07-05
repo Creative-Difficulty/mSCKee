@@ -320,4 +320,9 @@ Entire PCB (finished, apart from the TODOs): ![](./journal_imgs/5.png)
 
 Fixed all DRC errors and most warnings. I discovered that the severity of violations can also be customized, and I set Silkscreen violations to ignore as I've heard the PCB fab will figure it out (JLC at least). I will probably fix them some time in the future, but if everything is correct, the board should be finished!
 
+TODO: Assign JLC part numbers!!
+TODO: Add screw mounting holes!
+TODO: BOM.csv!
+TODO: Minimal encloure (just standoffs into a plate on bottom)
+
 RUNNING TOTAL: 51h 20m (including the 40min lost by lapse)
