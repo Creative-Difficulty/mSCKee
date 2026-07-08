@@ -7417,12 +7417,6 @@
 		(uuid "11cc139f-fa49-495d-ae6b-64df7f08a471")
 	)
 	(junction
-		(at 55.88 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16f7d558-4dfd-4d1d-a6bc-76179d5d97c1")
-	)
-	(junction
 		(at 104.14 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7595,6 +7589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55e9282b-67e9-45b7-9602-78c66892ed7f")
+	)
+	(junction
+		(at 50.8 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "566707b1-a424-4812-9377-e0a214559783")
 	)
 	(junction
 		(at 50.8 242.57)
@@ -8692,16 +8692,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 212.09) (xy 55.88 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398ce747-de79-4b70-9e95-ec46f502f15f")
-	)
-	(wire
-		(pts
 			(xy 389.89 57.15) (xy 397.51 57.15)
 		)
 		(stroke
@@ -9142,7 +9132,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 209.55) (xy 58.42 209.55)
+			(xy 50.8 209.55) (xy 58.42 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9292,7 +9282,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 214.63) (xy 55.88 214.63)
+			(xy 58.42 214.63) (xy 50.8 214.63)
 		)
 		(stroke
 			(width 0)
@@ -9542,7 +9532,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 214.63) (xy 55.88 212.09)
+			(xy 50.8 214.63) (xy 50.8 212.09)
 		)
 		(stroke
 			(width 0)
@@ -10622,16 +10612,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 212.09) (xy 58.42 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62bff45-8158-4fd8-b8cf-8ea3bb6fa796")
-	)
-	(wire
-		(pts
 			(xy 50.8 219.71) (xy 53.34 219.71)
 		)
 		(stroke
@@ -10882,7 +10862,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 212.09) (xy 55.88 209.55)
+			(xy 50.8 212.09) (xy 50.8 209.55)
 		)
 		(stroke
 			(width 0)
@@ -16771,7 +16751,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180"
 			(at 180.34 243.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19373,7 +19353,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 180.34 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22330,7 +22310,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 52.07 212.09 270)
+		(at 50.8 212.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22340,7 +22320,7 @@
 		(dnp no)
 		(uuid "ad7a625a-bf6f-4828-a601-6ed298d30a88")
 		(property "Reference" "#PWR036"
-			(at 45.72 212.09 0)
+			(at 44.45 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22351,7 +22331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 212.09 90)
+			(at 45.72 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22361,7 +22341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 212.09 0)
+			(at 50.8 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22372,7 +22352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 212.09 0)
+			(at 50.8 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22383,7 +22363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 212.09 0)
+			(at 50.8 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25576,6 +25556,83 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed7b1ed0-26ff-424b-b654-aeaa4e749452")
+		(property "Reference" "#PWR061"
+			(at 62.23 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 58.42 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a79d0220-9192-4257-b1ee-3c3af87684f5")
+		)
+		(instances
+			(project "mSCKee"
+				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/e8479b67-c66f-4a93-9ef2-59ef63eac199"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

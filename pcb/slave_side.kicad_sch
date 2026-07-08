@@ -4250,12 +4250,6 @@
 		(uuid "5f0d2e8f-452b-4f51-9808-6f431da66f05")
 	)
 	(junction
-		(at 68.58 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "688733c7-961b-4173-91d7-9da0238d2dac")
-	)
-	(junction
 		(at 359.41 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4711,7 +4705,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 175.26) (xy 71.12 175.26)
+			(xy 63.5 175.26) (xy 71.12 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 180.34) (xy 68.58 177.8)
+			(xy 63.5 175.26) (xy 63.5 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4978,16 +4972,6 @@
 			(type default)
 		)
 		(uuid "521f9a09-cc8c-4b35-8b3e-50be929ec7a1")
-	)
-	(wire
-		(pts
-			(xy 64.77 177.8) (xy 68.58 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527a664d-40aa-4e16-b694-006d169c52a6")
 	)
 	(wire
 		(pts
@@ -5131,16 +5115,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 177.8) (xy 71.12 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a24b9f8-594b-448b-9d8b-617c19db3d3f")
-	)
-	(wire
-		(pts
 			(xy 347.98 106.68) (xy 359.41 106.68)
 		)
 		(stroke
@@ -5178,16 +5152,6 @@
 			(type default)
 		)
 		(uuid "6d35a9de-4e70-4f85-bbfc-5ed7e603b49e")
-	)
-	(wire
-		(pts
-			(xy 68.58 177.8) (xy 68.58 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d98d40b-5f2f-4671-bdb0-b90b4a22af82")
 	)
 	(wire
 		(pts
@@ -5631,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 180.34) (xy 68.58 180.34)
+			(xy 71.12 180.34) (xy 63.5 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6472,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 64.77 177.8 90)
+		(at 63.5 177.8 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6481,7 @@
 		)
 		(uuid "2f5328f4-2601-4886-a7b3-c565bebe5c89")
 		(property "Net Class" "R_GND"
-			(at 60.96 177.8 0)
+			(at 59.69 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6528,7 +6492,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 160.02 -115.57 90)
+			(at 158.75 -115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12608,6 +12572,84 @@
 			(project "mSCKee"
 				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
 					(reference "LD32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b57c01a5-3b78-4889-a5e8-4924edc7e714")
+		(property "Reference" "#PWR060"
+			(at 74.93 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_R"
+			(at 63.5 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "010261a0-e3e4-4f10-b0a7-4e69d5da12c5")
+		)
+		(instances
+			(project "mSCKee"
+				(path "/2ec7cb33-7d00-426e-b710-cc42b1f2f810/84141690-5233-4517-90f0-209001a553bd"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
