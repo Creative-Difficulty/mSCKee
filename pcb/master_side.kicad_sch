@@ -7236,7 +7236,7 @@
 		)
 		(uuid "8ccb2baa-8853-41a5-9d86-b80932e9161a")
 	)
-	(text "I2C: 0000001"
+	(text "I2C: 0010101"
 		(exclude_from_sim no)
 		(at 80.01 191.77 0)
 		(effects
@@ -17367,7 +17367,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "3k"
 			(at 57.15 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)

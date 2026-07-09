@@ -38,3 +38,5 @@ fp-info-cache
 # macOS things
 .DS_Store
 **/.DS_Store
+/pcb/jlcpcb/gerber
+/pcb/jlcpcb/production_files

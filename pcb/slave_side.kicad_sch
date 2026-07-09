@@ -3949,6 +3949,16 @@
 		)
 		(uuid "2855cfb2-9343-4592-bebb-33a2d80d765b")
 	)
+	(text "I2C: 0010101"
+		(exclude_from_sim no)
+		(at 92.71 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4275ddd9-b84f-47b5-86d1-b27b2cc338cf")
+	)
 	(text "same I2C adress as the LED driver on master side, \nbut using different I2C bus, so no conflict"
 		(exclude_from_sim no)
 		(at 93.98 153.67 0)
@@ -3978,16 +3988,6 @@
 			)
 		)
 		(uuid "58de1527-a565-4c98-9f1e-082890226a8e")
-	)
-	(text "I2C: 0000001"
-		(exclude_from_sim no)
-		(at 92.71 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "658192d8-f83f-40cf-9248-184159d77fb1")
 	)
 	(text "NC = not connected"
 		(exclude_from_sim no)
@@ -13890,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "3k"
 			(at 69.85 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
