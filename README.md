@@ -2,7 +2,7 @@
 Split Keyboard
 
 ## Features
-- dimmable white backlighting for every key
+- dimmable white backlighting for every key, programmable to display animations
 - two light sensors (one per side) to automatically dim backlight
 - Dedicated RP2040 MCU IC
 - USB-C 2.0 connectivity
