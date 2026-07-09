@@ -325,4 +325,19 @@ TODO: Add screw mounting holes!
 TODO: BOM.csv!
 TODO: Minimal encloure (just standoffs into a plate on bottom)
 
-RUNNING TOTAL: 51h 20m (including the 40min lost by lapse)
+## Entry 18: 10 hours, 09.07.2026
+Assigned all the LCSC numbers, had to redo it multiple times due to wrong packages and swapped out a few footprints due to missing LCSC products. 
+
+Placed the PCA9956 LED drivers and all other footprints from the back to the front in order to use JLC's economic tier of the PCBA service. This took a lot of time as I had to reroute all 36 LEDs.
+
+Added M2 screw holes, five per side at important locations, to screw the PCB into the enclosures' standoffs.
+
+After I saw the JLC order totalling over 200€, I rotated one half of the split and moved it much closer to the other half, connecting the two with mousebites. This space saving brought the total cost down to around 125€.
+
+Compacted final PCB layout with LED drivers on the front surface and screw holes: ![](./journal_imgs/6.png)
+
+## Entry 18: 2 hours, 10.07.2026
+Designed a basic case with standoffs to mount the PCB on in Fusion. This pretty simple part took a long time because this is my first time using Fusion. Finished product: ![](./journal_imgs/7.png)
+I will have it CNC'd out of aluminium by JLCCNC, which seems to be the most cost-effective option.
+
+RUNNING TOTAL: 63h 20m (including the 40min lost by lapse)
