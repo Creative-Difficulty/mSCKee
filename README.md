@@ -13,9 +13,6 @@ Split Keyboard with per-key white backlighting, adapting to ambient brightness.
 - RJ9 cable connection between halves
 - Cherry MX 5 pin switch compatible
 
-## PCB routing
-![](./journal_imgs/routing.png)
-
 ## BOM
 
 The JLC BOM covers the majority of expenses:
@@ -32,3 +29,8 @@ Total cost of JLCPCB(A):
 | SP3T Switch: PCM13SMTR                 | 1.17€                     | No equivalent available at JLC https://www.digikey.at/en/products/detail/c-k/PCM13SMTR/1640113 |
 | JLCCNC                                 | ~20€ + shipping           | Future expense for aluminium enclosure                 | Total                                        | 197,92€ ||
 | Total (USD)| ~226.26USD ||
+
+## PCB routing & schematic
+![](./journal_imgs/routing.png)
+![](./journal_imgs/m_schem.png)
+![](./journal_imgs/s_schem.png)
