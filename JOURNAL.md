@@ -336,7 +336,7 @@ After I saw the JLC order totalling over 200€, I rotated one half of the split
 
 Compacted final PCB layout with LED drivers on the front surface and screw holes: ![](./journal_imgs/6.png)
 
-## Entry 18: 2 hours, 10.07.2026
+## Entry 19: 2 hours, 10.07.2026
 Designed a basic case with standoffs to mount the PCB on in Fusion. This pretty simple part took a long time because this is my first time using Fusion. Finished product: ![](./journal_imgs/7.png)
 I will have it CNC'd out of aluminium by JLCCNC, which seems to be the most cost-effective option.
 
