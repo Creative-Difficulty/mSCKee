@@ -24,7 +24,7 @@ Total cost of JLCPCB(A):
 
 | Description                            | Price                     | Justification                                                                                  |
 |----------------------------------------|---------------------------|------------------------------------------------------------------------------------------------|
-| JLCPCB manutfacturing and PCB assembly | 124.05€ + 22.72€ shipping |                                                                                                |
+| JLCPCB manufacturing and PCB assembly | 124.05€ + 22.72€ shipping |                                                                                                |
 | Cherry MX Red Switch kit               | 17.99€ + 11.99€ shipping  | https://shop.cherry.de/cherry-mx2a-rgb-red-switch-kit.html                                     |
 | SP3T Switch: PCM13SMTR                 | 1.17€                     | No equivalent available at JLC https://www.digikey.at/en/products/detail/c-k/PCM13SMTR/1640113 |
 | JLCCNC                                 | ~20€ + shipping           | Future expense for aluminium enclosure                 | Total                                        | 197,92€ ||
