@@ -2,6 +2,7 @@
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?github=https://github.com/Creative-Difficulty/mscKee/tree/main/pcb)
 ![](./journal_imgs/8.png)
 Split Keyboard with per-key white backlighting, adapting to ambient brightness.
+All manufacturing and part costs were covered by Hack Club through their Outpost program (<https://outpost.hackclub.com>), which I am very grateful for.
 
 ## Highlights
 - dimmable white backlighting for every key, programmable to display animations
