@@ -1,4 +1,6 @@
-Description,Price,Justification
-JLCPCB manutfacturing and PCB assembly,124.05€ + 22.72€ shipping,
-Cherry MX Red Switch kit,17.99€ + 11.99€ shipping,https://shop.cherry.de/cherry-mx2a-rgb-red-switch-kit.html
-SP3T Switch: PCM13SMTR,1.17€,No equivalent available at JLC https://www.digikey.at/en/products/detail/c-k/PCM13SMTR/1640113
+Description,Price/Piece,Total Price,Purchase link, Justification
+JLCPCB manufacturing and PCB assembly,124.05€ + 22.72€ shipping,146.77€,,
+Cherry MX Red Switch kit,17.99€ + 11.99€ shipping,29.98€,https://shop.cherry.de/cherry-mx2a-rgb-red-switch-kit.html,
+SP3T Switch: PCM13SMTR,0.82€,5*0.82€+5.90€ shipping + 20% VAT = 12€,https://www.tme.eu/at/details/pcm13smtr/schiebeschalter/c-k/, No equivalent SP3T switch is available at JLC
+1N 4148W7F DII SOD-123 diode,0.05€,36*0.05+6.95€ shipping + 20% VAT = 10.5€,https://www.reichelt.com/at/en/shop/product/small-signal_switching_diode_100_v_300_ma_sod-123-219381,"Diodes for key matrix, mounted on back side of PCB, so not assembled or provided by JLC"
+Total,,199.25€,,
