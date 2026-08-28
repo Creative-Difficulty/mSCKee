@@ -278,7 +278,7 @@ NOTE: Dates are written as dd.mm.yyyy format from here on.
 
 ## Entry 14: 2 hours, 30.06.2026
 Routed most of the LEDs to the LED driver on the right side and routed the rest of all unconnected things on the switches, doides ad LEDs on the right half, except the Row/col wiring for the thumb cluster (TODO).
-![](./journal_imgs/1.png)
+![](./journal-imgs/1.png)
 
 
 ## Entry 15: 2 hours, 01.07.2026
@@ -286,7 +286,7 @@ Routed the thumb cluster so the entire right hand matrix is now finished, also r
 TODO: Figure out power plane 3.3 and 5V separation and pours.
 TODO: Fix trace and via width for power traces.
 
-![](./journal_imgs/2.png)
+![](./journal-imgs/2.png)
 
 
 
@@ -295,7 +295,7 @@ TODO: Fix trace and via width for power traces.
 (I did this work over the course of a couple of days from 01.07.2026 to 05.07.2026)
 
 On the left side of the split: 
-Seperated 3.3V and 5V copper pours on the same layer: ![](./journal_imgs/3.png)
+Seperated 3.3V and 5V copper pours on the same layer: ![](./journal-imgs/3.png)
 
 Figured out how to use netclasses and set the 3.3V and 5V power traces to be 0.4mm wide and increased the via size for all traces (didn't retroactively apply them to all tho).
 
@@ -309,12 +309,12 @@ Added the ground and split power plane pours from the left (master) side to the 
 
 On the right side, since kbplacer assigned LED footprints from top to bottom, not from left to right, even though I had corrected the designtors to make them sequential from left to right, the majority of LED pads were referencing the wrong nets.
 
-I spent a lot of time on fixing R_GND connections, as there was no net automatically generated and I had to manually find and reassign all ground connections (This was likely because i used a "Directive Label" in the schematic). Example of R_GND usage in the schematic: ![](./journal_imgs/4.png)
+I spent a lot of time on fixing R_GND connections, as there was no net automatically generated and I had to manually find and reassign all ground connections (This was likely because i used a "Directive Label" in the schematic). Example of R_GND usage in the schematic: ![](./journal-imgs/4.png)
 
 TODO: Assign JLC part numbers
 TODO: Fix 300+ DRC errors and 200+ warnings
 
-Entire PCB (finished, apart from the TODOs): ![](./journal_imgs/5.png)
+Entire PCB (finished, apart from the TODOs): ![](./journal-imgs/5.png)
 
 ## Entry 17: 1 hour, 05.07.2026
 
@@ -334,10 +334,10 @@ Added M2 screw holes, five per side at important locations, to screw the PCB int
 
 After I saw the JLC order totalling over 200€, I rotated one half of the split and moved it much closer to the other half, connecting the two with mousebites. This space saving brought the total cost down to around 125€.
 
-Compacted final PCB layout with LED drivers on the front surface and screw holes: ![](./journal_imgs/6.png)
+Compacted final PCB layout with LED drivers on the front surface and screw holes: ![](./journal-imgs/6.png)
 
 ## Entry 19: 2 hours, 10.07.2026
-Designed a basic case with standoffs to mount the PCB on in Fusion. This pretty simple part took a long time because this is my first time using Fusion. Finished product: ![](./journal_imgs/7.png)
+Designed a basic case with standoffs to mount the PCB on in Fusion. This pretty simple part took a long time because this is my first time using Fusion. Finished product: ![](./journal-imgs/7.png)
 I will have it CNC'd out of aluminium by JLCCNC, which seems to be the most cost-effective option.
 
 RUNNING TOTAL: 63h 20m (including the 40min lost by lapse)
