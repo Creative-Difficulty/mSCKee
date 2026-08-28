@@ -319,6 +319,7 @@ Entire PCB (finished, apart from the TODOs): ![](./journal-imgs/5.png)
 ## Entry 17: 1 hour, 05.07.2026
 
 Fixed all DRC errors and most warnings. I discovered that the severity of violations can also be customized, and I set Silkscreen violations to ignore as I've heard the PCB fab will figure it out (JLC at least). I will probably fix them some time in the future, but if everything is correct, the board should be finished!
+![](./journal-imgs/drc-0errors.png)
 
 TODO: Assign JLC part numbers!!
 TODO: Add screw mounting holes!
@@ -340,4 +341,32 @@ Compacted final PCB layout with LED drivers on the front surface and screw holes
 Designed a basic case with standoffs to mount the PCB on in Fusion. This pretty simple part took a long time because this is my first time using Fusion. Finished product: ![](./journal-imgs/7.png)
 I will have it CNC'd out of aluminium by JLCCNC, which seems to be the most cost-effective option.
 
-RUNNING TOTAL: 63h 20m (including the 40min lost by lapse)
+## Entry 20: 28.08.2026: 4 hours of build time
+This is the first entry in a pretty long time, a lot has happened since the last entry! 
+
+I ordered the PCB which ended up costing 206$ + about 50$ in customs/fees.
+The PCBs arrived, and it worked perfectly, except - It didn't. The RP2040 booted up perfectly but as soon as I tried to flash a test firmware, the board (used as a storage device) ejected itself from Finder. 
+![](./journal-imgs/pcb-errors-red-circled.png)
+After some continuity testing with a multimeter, I discovered that I had connected the QSPI CS (chip select) pin of the RP2040 (Pin 56) to the IOVDD pin (Pin 1, a 3,3V input pin powering the RP2040's GPIO pins) and the CS pin (Pin 1) of the WS25Q128 storage chip to the 3,3V net by connecting it to pin 8 of the same chip, which was tied to 3,3V.
+This made the storage chip unusable as the chip select pin doesn't ever select or deselect the chip.
+KiCad's ratsnet led me to believe I had to connect these two (by displaying "+3V3" on them), and I didn't double check with the datasheet one last time before ordering.
+
+Due to me not having a hot air station at home, I went to a hackspace in Vienna ([Metalab](https://metalab.at/) in the first district, you should check it out!!) to try and fix the board.
+
+First I desoldered the RP2040:
+![](journal-imgs/fixing-rp2040-removed.png)
+
+And broke the connection between pin 56 and pin 1 by scratching it up with a knife: ![](journal-imgs/fixing-rp2040-bridge-destroyed.png)
+As I've never used a hot air station before, I may have broken the RP2040 and/or W25Q128 storage chip by using too much heat for too long.
+I don't have solder paste, flux or a stencil for the RP2040, and I am not confident that I am able to resolder it correctly.
+
+While desoldering the storage chip, I unfortunately broke off one of its leads, so I'll have to find a replacement for it.
+
+I also took some product photos while I was in the city:
+| ![](pretty-assets/msckee_in_wave.png)| ![](pretty-assets/msckee_in_tree.png)| ![](journal-imgs/product-photo-marble.png) | ![](journal-imgs/product-photo-flowers.png) |
+|-|-|-|-|
+
+Me larping around in Vienna with the non-functional keyboard: ![](./journal-imgs/larping-around-vienna.png)
+
+
+RUNNING TOTAL: 67h 20m (including the 40min lost by lapse)
